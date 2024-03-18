@@ -14,7 +14,7 @@ width: 100vw;
 
 .titulo__pagina{
     font-size: 10px;   
-    background: linear-gradient(#1275AD,#f9f9f918);
+    background: linear-gradient(to left,  #1275AD,#f9f9f918);
     width: 100vw;
    color: aliceblue;
     height: 3%;
