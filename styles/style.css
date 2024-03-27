@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -8,84 +8,88 @@
 }
 
 
-body{
-height: 100vh;
-width: 100vw;
-font-family: "Montserrat Alternates", sans-serif;
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Montserrat Alternates", sans-serif;
 
 
 }
 
-.titulo__pagina{
-    font-size: 10px;   
-    background: linear-gradient(to left,  #1275AD,#f9f9f918);
+.titulo__pagina {
+    font-size: 10px;
+    background: linear-gradient(to left, #1275AD, #f9f9f918);
     width: 100vw;
     color: rgba(252, 254, 255, 0.897);
     height: 3%;
-    text-align: right;   
+    text-align: right;
     padding: 0.50rem;
-    
-  
+
+
 
 }
 
 
-.menu__navegacao{
+.menu__navegacao {
     padding: .2rem;
     height: 5vh;
     width: 100vw;
-    display: flex;      
+    display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     border: 2px solid black;
     background-color: #E2EEF1;
 }
-.menu__links__navegacao{
+
+.menu__links__navegacao {
     text-decoration: none;
     font-size: 13px;
-    color:black;
-     
-    
+    color: black;
+
+
 }
 
 
 
-.teste{
+.teste {
     display: flex;
 
 }
-.prestacao__servicos{
+
+.prestacao__servicos {
     display: flex;
     unicode-bidi: unset;
     padding: 0.4rem;
     width: 100vw;
-    text-align: center;  
+    text-align: center;
     border: 1px;
     gap: 90px;
-    
-      
+
+
 }
 
-.prestacao__servicos__sus{
+.prestacao__servicos__sus {
     font-size: 9px;
     font-family: 'Montserrat Alternates' sans-serif;
     /*align-items: center;*/
     font-weight: 500;
-    width: 79px; 
+    width: 79px;
     text-align: right;
 
-    
-   
-}
-.servicos{
-    display: flex;
-    gap: 30px;
-    justify-content:center;
-    padding: .2rem;
-   
+
 
 }
-.servicos__disponiveis{
+
+.servicos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: .2rem;
+
+
+}
+
+.servicos__disponiveis {
     font-size: 10px;
     text-align: center;
     border: 0px solid rgba(252, 254, 255, 0.897);
@@ -100,12 +104,12 @@ font-family: "Montserrat Alternates", sans-serif;
 
 }
 
-.botao{
+.botao {
     background-color: #116985;
     padding: .2rem;
     border: 1px solid #116985;
     color: rgba(252, 254, 255, 0.897);
     margin: 20px;
-    height:5vh;
-    
+    height: 5vh;
+
 }
