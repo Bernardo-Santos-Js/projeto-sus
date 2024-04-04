@@ -12,6 +12,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
+    overflow-y: hidden;
 
 
 }
@@ -144,7 +145,33 @@ body {
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 600;
     font-style:normal;
-    padding: 0.9rem;
+    padding: .9rem ;
 }
     
    
+.servicos__destaques{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    gap: 35%;   
+  
+
+}
+.subtitulo__destaques{      
+    font-size: 10px;
+    font-weight: 600;
+    font-style:normal;
+    padding: .9rem ;
+    align-items: center;
+    border: 10px solic black;
+   text-align: center;
+    width: 30vw; 
+}
+
+footer{
+    font-family: 'Montserrat Alternates' sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    display: flex;
+
+}
