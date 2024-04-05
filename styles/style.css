@@ -42,11 +42,15 @@ body {
     background-color: #E2EEF1;
 }
 
-.menu__links__navegacao {
+.menu_links_navegacao {
     text-decoration: none;
     font-size: 13px;
     color: black;
+
+
 }
+
+
 
 .teste {
     display: flex;
@@ -68,10 +72,10 @@ body {
 
 }
 
-.prestacao__servicos__sus {
+.prestacao_servicos_sus {
     font-size: 9px;
     font-family: 'Montserrat Alternates' sans-serif;
-    /*align-items: center;*/
+    /align-items: center;/
     font-weight: 500;
     width: 79px;
     text-align: right;
@@ -89,13 +93,10 @@ body {
     gap: 30px;
     justify-content: center;
     padding: .2rem;
-<<<<<<< HEAD
-=======
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 800;
     font-style:normal;
 
->>>>>>> 68e7c39dcc3c716c8eb5dd7d7a58cbc636b1bbc1
 }
 
 .servicos__disponiveis {
@@ -112,33 +113,23 @@ body {
     flex-wrap: nowrap;
     padding: .9rem;
     justify-content: space-between;
-<<<<<<< HEAD
-=======
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 600;
     font-style:normal;
 
 
->>>>>>> 68e7c39dcc3c716c8eb5dd7d7a58cbc636b1bbc1
 }
 
 .servicos__disponiveis img {
     width: 40px;
-
 }
+
+
 .botao {
     background-color: #116985;
     padding: .2rem;
     border: 1px solid #116985;
     color: #ffffff;
-<<<<<<< HEAD
-    margin: 20px;
-    height: 3vh;
-    width: 10vh;
-    border-radius: 5px;
-
-}
-=======
     margin: 10px;
     height:3vh;
     border-radius: inherit;    
@@ -185,5 +176,3 @@ footer{
     display: flex;
 
 }
-
->>>>>>> 68e7c39dcc3c716c8eb5dd7d7a58cbc636b1bbc1
