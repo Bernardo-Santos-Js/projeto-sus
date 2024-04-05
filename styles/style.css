@@ -12,6 +12,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
+    overflow-y: hidden;
 
 
 }
@@ -62,6 +63,7 @@ body {
     text-align: center;
     border: 1px;
     gap: 90px;
+    
 
 
 }
@@ -73,6 +75,9 @@ body {
     font-weight: 500;
     width: 79px;
     text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  font-style: normal;
 
 
 
@@ -80,24 +85,41 @@ body {
 
 .servicos {
     display: flex;
+    flex-direction: column;
     gap: 30px;
-    justify-content:center;
+    justify-content: center;
     padding: .2rem;
+<<<<<<< HEAD
+=======
+    font-family: 'Montserrat Alternates' sans-serif;
+    font-weight: 800;
+    font-style:normal;
+
+>>>>>>> 68e7c39dcc3c716c8eb5dd7d7a58cbc636b1bbc1
 }
-.servicos__disponiveis{
+
+.servicos__disponiveis {
     font-size: 10px;
     text-align: center;
     border: 0px solid rgba(252, 254, 255, 0.897);
     background-color: #E2EEF1;
     border-radius: 5px;
     height: 27vh;
-    width: 40vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
     padding: .9rem;
     justify-content: space-between;
+<<<<<<< HEAD
+=======
+    font-family: 'Montserrat Alternates' sans-serif;
+    font-weight: 600;
+    font-style:normal;
+
+
+>>>>>>> 68e7c39dcc3c716c8eb5dd7d7a58cbc636b1bbc1
 }
 
 .servicos__disponiveis img {
@@ -109,9 +131,59 @@ body {
     padding: .2rem;
     border: 1px solid #116985;
     color: #ffffff;
+<<<<<<< HEAD
     margin: 20px;
     height: 3vh;
     width: 10vh;
     border-radius: 5px;
 
 }
+=======
+    margin: 10px;
+    height:3vh;
+    border-radius: inherit;    
+}
+
+
+.destaques{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.texto__destaques{
+    font-family: 'Montserrat Alternates' sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    padding: .9rem ;
+}
+    
+   
+.servicos__destaques{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    gap: 35%;   
+  
+
+}
+.subtitulo__destaques{      
+    font-size: 10px;
+    font-weight: 600;
+    font-style:normal;
+    padding: .9rem ;
+    align-items: center;
+    border: 10px solic black;
+   text-align: center;
+    width: 30vw; 
+}
+
+footer{
+    font-family: 'Montserrat Alternates' sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    display: flex;
+
+}
+
+>>>>>>> 68e7c39dcc3c716c8eb5dd7d7a58cbc636b1bbc1
