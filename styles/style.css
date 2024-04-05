@@ -45,11 +45,7 @@ body {
     text-decoration: none;
     font-size: 13px;
     color: black;
-
-
 }
-
-
 
 .teste {
     display: flex;
@@ -87,8 +83,6 @@ body {
     gap: 30px;
     justify-content:center;
     padding: .2rem;
-   
-
 }
 .servicos__disponiveis{
     font-size: 10px;
@@ -104,21 +98,20 @@ body {
     flex-wrap: nowrap;
     padding: .9rem;
     justify-content: space-between;
-
-
 }
 
-.servicos__disponiveis img{
+.servicos__disponiveis img {
     width: 40px;
+
 }
-
-
 .botao {
     background-color: #116985;
     padding: .2rem;
     border: 1px solid #116985;
     color: #ffffff;
     margin: 20px;
-    height:5vh;
-    
+    height: 3vh;
+    width: 10vh;
+    border-radius: 5px;
+
 }
