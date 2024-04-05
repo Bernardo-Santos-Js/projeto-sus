@@ -56,6 +56,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 40vh;
 
 }
 
@@ -67,7 +68,7 @@ body {
     text-align: center;
     border: 1px;
     gap: 90px;
-    
+
 
 
 }
@@ -75,13 +76,12 @@ body {
 .prestacao_servicos_sus {
     font-size: 9px;
     font-family: 'Montserrat Alternates' sans-serif;
-    /align-items: center;/
-    font-weight: 500;
+    /align-items: center;/ font-weight: 500;
     width: 79px;
     text-align: right;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-  font-style: normal;
+    font-style: normal;
 
 
 
@@ -95,7 +95,7 @@ body {
     padding: .2rem;
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 800;
-    font-style:normal;
+    font-style: normal;
 
 }
 
@@ -115,7 +115,7 @@ body {
     justify-content: space-between;
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 600;
-    font-style:normal;
+    font-style: normal;
 
 
 }
@@ -131,48 +131,65 @@ body {
     border: 1px solid #116985;
     color: #ffffff;
     margin: 10px;
-    height:3vh;
-    border-radius: inherit;    
+    height: 3vh;
+    border-radius: inherit;
 }
 
 
-.destaques{
+.destaques {
     display: flex;
     justify-content: center;
-   
+
 }
 
-.texto__destaques{
+.texto__destaques {
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 600;
-    font-style:normal;
-    padding: .9rem ;
+    font-style: normal;
+    padding: .9rem;
 }
-    
-   
-.servicos__destaques{
+
+
+.servicos__destaques {
     display: flex;
     width: 100vw;
-    height: 40vh;
-    gap: 35%;   
-  
+    height: 30vh;
+    gap: 35%;
+
 
 }
-.subtitulo__destaques{      
+
+.subtitulo__destaques {
     font-size: 10px;
     font-weight: 600;
-    font-style:normal;
-    padding: .9rem ;
+    font-style: normal;
+    padding: .9rem;
     align-items: center;
     border: 10px solic black;
-   text-align: center;
-    width: 30vw; 
+    text-align: center;
+    width: 30vw;
 }
 
-footer{
+footer {
     font-family: 'Montserrat Alternates' sans-serif;
     font-weight: 600;
-    font-style:normal;
+    font-style: normal;
     display: flex;
+    gap: 50px;
+    flex-direction: row;
+    border: 1px solid #E2EEF1;
+    background: #E2EEF1;
+    height: 15vh;
 
+}
+
+li a {
+    text-decoration: none;
+    color: #797575;
+    font-size: 10px;
+}
+
+.final {
+    background: linear-gradient(to left, #1275AD, #f9f9f918);
+    height: 3vh;
 }
