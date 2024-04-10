@@ -12,11 +12,14 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
+<<<<<<< HEAD
     overflow-x: hidden;
 
 
+=======
+    overflow-y: hidden;
+>>>>>>> 5e24fec183f4d6f12d73413980d88ad6b8030a78
 }
-
 .titulo__pagina {
     font-size: 10px;
     background: linear-gradient(to left, #1275AD, #f9f9f918);
@@ -25,21 +28,18 @@ body {
     height: 3%;
     text-align: right;
     padding: 0.50rem;
-
-
-
 }
 
 .topnav {
     overflow: hidden;
-    background: #333;
+    background: #E2EEF1;
 }
 
 .topnav a {
     float: left;
     /*flutuar à esquerda*/
     display: block;
-    color: #f2f2f2;
+    color: #050505;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,8 +47,8 @@ body {
 }
 
 .topnav a:hover{
-    background: rgba(7, 137, 176, .5);
-    color: rgb(0, 0, 0);
+    background: #6d6a6a;
+    color: rgb(255, 255, 255);
 }
 
 .topnav .icon {
@@ -98,7 +98,6 @@ body {
     border: 2px solid #E2EEF1;
     background-color: #E2EEF1;
 }
-
 .menu_links_navegacao {
     text-decoration: none;
     font-size: 13px;
@@ -132,7 +131,6 @@ body {
 
 
 }
-
 .prestacao_servicos_sus {
     font-size: 13px;   
     align-items: center;
@@ -141,7 +139,6 @@ body {
      font-weight: 600;
     font-style: normal;
 }
-
 .servicos {
     display: flex;
     flex-direction: column;
@@ -150,9 +147,7 @@ body {
     padding: .2rem;   
     font-weight: 800;
     font-style: normal;
-
 }
-
 .servicos__disponiveis {
     font-size: 10px;
     text-align: center;
@@ -170,15 +165,10 @@ body {
     
     font-weight: 600;
     font-style: normal;
-
-
 }
-
 .servicos__disponiveis img {
     width: 40px;
 }
-
-
 .botao {
     background-color: #116985;
     padding: .2rem;
@@ -188,8 +178,6 @@ body {
     height: 3vh;
     border-radius: inherit;
 }
-
-
 .destaques {
     display: flex;
     justify-content: center;
@@ -206,8 +194,6 @@ img{
     font-style: normal;
     padding: .9rem;
 }
-
-
 .servicos__destaques {
     display: flex;
     width: 100vw;
@@ -242,13 +228,11 @@ img{
     padding: 0.4rem;
 
 }
-
 li a {
     text-decoration: none;
     color: #797575;
     font-size: 10px;
 }
-
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
     height: 5vh;   
