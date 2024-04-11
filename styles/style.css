@@ -79,6 +79,10 @@ body {
    .footer{
     flex-direction: column;
    }
+   /*
+   .teste{    editar quando for modo tela celular, deixar responsivo
+    flex-direction: column;
+   }*/
 }
 
 .teste {

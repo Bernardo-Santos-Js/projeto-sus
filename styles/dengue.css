@@ -2,8 +2,9 @@
 
 * {
     padding: 0;
-    margin: 0;   
+    margin: 0;
     box-sizing: border-box;
+
 }
 
 
@@ -11,12 +12,16 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
+
 }
-img{
-    height:5vh; 
-     
+
+img {
+    height: 5vh;
+
+
 }
+
 .titulo__pagina {
     font-size: 10px;
     background: linear-gradient(to left, #1275AD, #f9f9f918);
@@ -24,11 +29,10 @@ img{
     color: rgba(252, 254, 255, 0.897);
     height: 3%;
     text-align: right;
-    padding: 0.50rem;
+    padding: 0.5rem;
 }
 
 .topnav {
-    overflow: hidden;
     background: #E2EEF1;
 }
 
@@ -43,7 +47,7 @@ img{
     font-size: 17px;
 }
 
-.topnav a:hover{
+.topnav a:hover {
     background: #6d6a6a;
     color: rgb(255, 255, 255);
 }
@@ -65,11 +69,11 @@ img{
     }
 
 
-    .topnav.responsive{
+    .topnav.responsive {
         position: relative;
     }
 
-    .topnav.responsive .icon{
+    .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -80,48 +84,61 @@ img{
         display: block;
         text-align: left;
     }
-   .footer{
-    flex-direction: column;
-   }
+
+    .footer {
+        flex-direction: column;
+    }
 }
 
-.conteudo__noticias{
+.conteudo__noticias {
     justify-content: center;
     display: flex;
     gap: 10%;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
 
 }
 
 
-.titulo__noticias{
+.titulo__noticias {
     text-align: center;
-    height: 6vh;
+    height: 8vh;
     font-size: 20px;
     align-items: first baseline;
 }
 
-.texto__noticias{
+.texto__noticias {
     font-size: 15px;
-    align-items: self-end;
     height: 10vh;
+    padding: 2rem;
 }
+
 h2{
     font-size: 15px;
     padding: .9rem;
-    
+
 }
-.imagem__dengue{
-    padding: .5rem;
+
+.imagem__dengue {
+    padding: 1rem;
     height: 10vh;
 }
 
-.botao{
+.botao__dengue {
     flex-direction: row-reverse;
+    background-color: #1275AD;
+    text-decoration: none;
 }
 
+.titulo__noticias__covid19 {
+    text-align: center;
+    height: 10vh;
+    font-size: 20px;
+    align-items: first baseline;
 
+
+}
 
 .footer {
     font-weight: 600;
@@ -131,17 +148,19 @@ h2{
     flex-direction: row;
     border: 1px solid #E2EEF1;
     background: #E2EEF1;
-    height: 15vh;
-    padding: 0.4rem;
+    height: 13vh;
+    padding: 10px;
 
 }
+
 li a {
     text-decoration: none;
     color: #797575;
     font-size: 10px;
 }
+
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
-    height: 5vh;   
+    height: 4vh;
     bottom: 0;
 }
