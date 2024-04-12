@@ -171,6 +171,9 @@ ul li a {
     text-decoration: none;
     list-style-type: none;
 }
+ul{
+    list-style-type: none;
+}
 
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
