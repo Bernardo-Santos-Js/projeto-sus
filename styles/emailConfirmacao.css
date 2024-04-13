@@ -132,6 +132,10 @@ ul li a {
     list-style-type: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
     height: 4vh;

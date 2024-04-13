@@ -206,6 +206,10 @@ li a {
     color: #797575;
     font-size: 10px;
 }
+
+ul{
+    list-style-type: none;
+}
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
     height: 5vh;   
