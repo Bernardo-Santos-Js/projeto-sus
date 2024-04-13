@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -42,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
+
     padding: 3rem;
 }
 
@@ -90,12 +92,17 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 0;
+
+
+
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
+
+
 }
 
 .input-box input {
@@ -116,7 +123,7 @@ body {
 }
 
 .input-box label,
-.gender-title h6 {
+.pne-title h6 {
     font-size: 0.75rem;
     font-weight: 600;
     color: #000000c0;
@@ -126,23 +133,23 @@ body {
     color: #000000be;
 }
 
-.gender-group {
+.pne-group {
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
     padding: 0 .5rem;
 }
 
-.gender-input {
+.pne-input {
     display: flex;
     align-items: center;
 }
 
-.gender-input input {
+.pne-input input {
     margin-right: 0.35rem;
 }
 
-.gender-input label {
+.pne-input label {
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
@@ -173,9 +180,11 @@ body {
     .form-image {
         display: none;
     }
+
     .container {
         width: 50%;
     }
+
     .form {
         width: 100%;
     }
@@ -186,6 +195,7 @@ body {
         width: 90%;
         height: auto;
     }
+
     .input-group {
         flex-direction: column;
         z-index: 5;
@@ -194,16 +204,20 @@ body {
         overflow-y: scroll;
         flex-wrap: nowrap;
     }
-    .gender-inputs {
+
+    .pne-inputs {
         margin-top: 2rem;
     }
-    .gender-group {
+
+    .pne-group {
         flex-direction: column;
     }
-    .gender-title h6 {
+
+    .pne-title h6 {
         margin: 0;
     }
-    .gender-input {
+
+    .pne-input {
         margin-top: 0.5rem;
     }
 }
