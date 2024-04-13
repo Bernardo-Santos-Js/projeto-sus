@@ -42,35 +42,35 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="number">Celular</label>
-                        <input id="tel" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        <label for="tel">Celular</label>
+                        <input id="tel" type="tel" name="tel" placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="number">CEP</label>
+                        <label for="cep">CEP</label>
                         <input id="cep" type="number" name="cep" placeholder="xx.xxx-xxx" required>
                     </div>
                     <div class="input-box">
-                        <label for="text">Rua</label>
+                        <label for="rua">Rua</label>
                         <input id="rua" type="text" name="rua" placeholder="Rua" required>
                     </div>
                     <div class="input-box">
-                        <label for="text">Bairro</label>
+                        <label for="bairro">Bairro</label>
                         <input id="bairro" type="text" name="bairro" placeholder="Bairro" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="text">Cidade</label>
+                        <label for="cidade">Cidade</label>
                         <input id="cidade" type="text" name="cidade" placeholder="Cidade" required>
                     </div>
                     <div class="input-box">
-                        <label for="text">UF</label>
+                        <label for="uf">UF</label>
                         <input id="uf" type="text" name="uf" placeholder="UF" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="text">Complemento</label>
-                        <input id="text" type="text" name="text" placeholder="Digite seu complemento" required>
+                        <label for="complemento">Complemento</label>
+                        <input id="complemento" type="text" name="complemento" placeholder="Digite seu complemento" required>
                     </div>
 
                     <div class="input-box">
@@ -114,6 +114,17 @@
     <div id="resultado">
     </div>
     <script src="js/formulario.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
