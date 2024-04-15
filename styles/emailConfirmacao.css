@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
    
 
 }
@@ -14,6 +15,7 @@ body {
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
     overflow-y: hidden;
+   
    
 
 }
@@ -35,6 +37,7 @@ img {
 
 .topnav {
     background: #E2EEF1;
+    
 }
 
 .topnav a {
@@ -95,21 +98,20 @@ img {
  display: flex;
  flex-direction: column;
 }
-.subtitulo__pagina{
-    padding: 2rem 4rem 11rem;
-    height: 10vh;
+.subtitulo__pagina{    
+    height: 30vh;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+ padding: 5rem;
 }
 
 .conteudo__email{
-    font-size: 20px;
-    gap: 20px;
-    height: 80vh;
-     background-color: #e3fcfa25;
-     text-align: center;
- 
+    font-size: 18px;
+    gap: 50px;
+    height: 50vh;
+    text-align: center;
+    background-color: #e3fcfa25;
 }
 
 .footer {
@@ -122,22 +124,20 @@ img {
     background: #E2EEF1;
     height: 10vh;
     padding: 5px;
+    list-style-type: none;
 }
 
-ul li a {
+li a {
+    text-decoration: none;
     color: #797575;
     font-size: 10px;
-    padding: .2rem;
-    text-decoration: none;
-    list-style-type: none;
 }
 
 ul{
     list-style-type: none;
 }
-
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
-    height: 4vh;
-    bottom: 0;    
-   }
+    height: 5vh;   
+    bottom: 0;
+}

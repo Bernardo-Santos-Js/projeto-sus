@@ -199,12 +199,14 @@ img{
     background: #E2EEF1;
     height: 15vh;
     padding: 0.4rem;
+    font-size: 12px;
 
 }
 li a {
     text-decoration: none;
     color: #797575;
     font-size: 10px;
+   
 }
 
 ul{
