@@ -17,6 +17,6 @@ let form = document.getElementById('form');
     console.log(obj);
 
 function limparDados() {
-    localStorage.clear();
+    localStorage.clear(sds);
 }
 
