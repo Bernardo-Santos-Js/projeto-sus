@@ -21,8 +21,7 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    padding: 500px;
-    background-color: #f2f2f2
+    background-color: #ffffff
 }
 
 .container {
@@ -31,20 +30,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f2f2f2;
+    background: #ffffff;
 }
 
 .conteudo {
-    width: 80%;
+    width: 50%;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
 }
 
 
 .formLogin {
     display: flex;
     flex-direction: column;
-    background: #ffffff;
+    background: #f2f2f2;
     border-radius: 7px;
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
