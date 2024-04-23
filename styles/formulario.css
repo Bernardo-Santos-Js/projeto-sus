@@ -93,15 +93,12 @@ body {
     justify-content: space-between;
     padding: 1rem 0;
 
-
-
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
-
 
 }
 
@@ -176,6 +173,16 @@ body {
     color: #dcdcdc;
 }
 
+#notifica {
+    background-color: #3d3b3b73;
+    padding: 0.4rem, 1rem;
+    border-radius: 8px;
+    position: absolute;
+    left: 58%;
+    color: #f2f2f2;
+    
+}
+
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;
@@ -188,11 +195,12 @@ body {
     .form {
         width: 100%;
     }
+    
 }
 
 @media screen and (max-width: 1064px) {
     .container {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
@@ -220,5 +228,5 @@ body {
     .pne-input {
         margin-top: 0.5rem;
     }
+   
 }
-

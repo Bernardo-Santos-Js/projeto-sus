@@ -14,7 +14,7 @@
             <img src="img/logo sus.png" alt="Logo SUS">
         </div>
         <div class="form">
-            <form>
+            <form id="formulario">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -26,15 +26,14 @@
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="firstname">Nome Completo</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome"
-                            required>
+                        <label for="nome">Nome Completo</label>
+                        <input id="nome" type="text" name="nome" placeholder="Digite seu primeiro nome" required>
                     </div>
 
                     <div class="input-box">
                         <label for="dataNascimento">Data de nascimento</label>
-                        <input id="dataNascimento" type="date" name="dataNascimento" placeholder="Digite sua data de nascimento"
-                            required>
+                        <input id="dataNascimento" type="date" name="dataNascimento"
+                            placeholder="Digite sua data de nascimento" required>
                     </div>
                     <div class="input-box">
                         <label for="email">E-mail</label>
@@ -42,8 +41,8 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="tel">Celular</label>
-                        <input id="tel" type="tel" name="tel" placeholder="(xx) xxxx-xxxx" required>
+                        <label for="telefone">Celular</label>
+                        <input id="telefone" type="tel" name="telefone" placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
                     <div class="input-box">
@@ -70,19 +69,20 @@
 
                     <div class="input-box">
                         <label for="complemento">Complemento</label>
-                        <input id="complemento" type="text" name="complemento" placeholder="Digite seu complemento" required>
+                        <input id="complemento" type="text" name="complemento" placeholder="Digite seu complemento"
+                            required>
                     </div>
 
                     <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
 
 
                     <div class="input-box">
-                        <label for="confirmPassword">Confirme sua Senha</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword"
-                            placeholder="Digite sua senha novamente" required>
+                        <label for="confirmeSenha">Confirme sua Senha</label>
+                        <input id="confirmeSenha" type="password" name="confirmeSenha"
+                            placeholder="Confirme sua senha" required>
                     </div>
 
                 </div>
@@ -106,8 +106,11 @@
                 </div>
 
                 <div class="continue-button">
-                    <button type="submit"><a href="#">Continuar</a> </button>
+                    <button type="submit" id="botaoContinuar"><a href="#">Continuar</a></button>
+                    <dialog id="notifica"></dialog>
+                    <div id="exibe"></div>
                 </div>
+
             </form>
         </div>
     </div>
