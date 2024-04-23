@@ -6,6 +6,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
    
+   
 
 }
 
@@ -15,7 +16,6 @@ body {
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
     overflow-y: hidden;
-   
    
 
 }
@@ -94,24 +94,24 @@ img {
     }
 }
 
-.conteudo__email{
- display: flex;
- flex-direction: column;
-}
+
 .subtitulo__pagina{    
     height: 30vh;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
- padding: 5rem;
+    padding: 5rem;
 }
 
 .conteudo__email{
     font-size: 18px;
     gap: 50px;
-    height: 50vh;
+    height: 80vh;
     text-align: center;
-    background-color: #e3fcfa25;
+    display: flex;
+   flex-direction: column;
+  
+    
 }
 
 .footer {
