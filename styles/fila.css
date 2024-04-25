@@ -1,0 +1,87 @@
+
+
+h1 {
+    padding: 20px;
+}
+
+.flex-container,
+.posicao__fila,
+h1,
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.texto__pagina {
+    text-align: center;
+    padding: 20px;
+}
+
+.posicao__fila {
+    text-align: center;
+    padding: 40px;
+}
+
+.flex-item-right {
+    background: #1275AD;
+    width: 300px;
+    height: 100px;
+    padding: 35px;
+    border: 1px solid #01010198;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+@media (max-width: 800px) {
+
+    .texto {
+        flex: 100%;
+    }
+
+    .fila {
+        flex: 100%;
+    }
+<<<<<<< HEAD
+
+    .flex-item-right {
+        flex: 100%;
+    }
+=======
+>>>>>>> ff5ea33e5a1f219546ecbadc8768af61c7f1f29b
+}
+
+.footer {
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    border: 1px solid #E2EEF1;
+    background: #E2EEF1;
+    height: 15vh;
+    padding: 0.4rem;
+    font-size: 12px;
+}
+
+li a {
+    text-decoration: none;
+    color: #797575;
+    font-size: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.final {
+    background: linear-gradient(to left, #1275AD, #f9f9f918);
+    height: 5vh;
+    bottom: 0;
+}

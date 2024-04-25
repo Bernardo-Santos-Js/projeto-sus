@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="styles/style.css">
+    
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
 </head>
 
 <body>
-    <h1 class="titulo__pagina">Fila Sus</h1>
+
+    <h1 class="titulo__pagina"><a href="formulario.html">Fila Sus</a></h1>
     <header>
         <nav class="topnav" id="navBar">
-            <img src="img/logo sus.png" alt="">
-            <a href="formulario.html">Login</a>
-            <a href="noticiasDengue.html"></i>Notícias</a>            
+            <img src="img/logo sus.png" alt="">            
+           <a href="formulario.html">Login</a>
+            <a href="noticias.html"></i>Notícias</a>
             <a href="#">Contato</a>
-            <a href="#"></i>Sobre nós</a>
+            <a href="sobre.html"></i>Sobre nós</a>
             <a href="#" class="icon" id="botao"><i class="fa fa-bars"></i></a>
         </nav>
     </header>
@@ -25,27 +28,34 @@
         <section class="servicos">
             <h4 class="prestacao_servicos_sus">Serviços</h4>
             <p class="servicos__disponiveis">
-                <img src="img/van.png" alt="van prestação de serviço">
+
+                <i class="fa fa-bus fa-4x" aria-hidden="true"></i>
                 O SUS (Sistema Único de Saúde) é imprescindível para possibilitar a população um acesso mais
                 democrático e igualitário a saúde.
-                <button class="botao"   type="submit">  Clique aqui </button>
+                <button class="botao" type="submit">
+                    <a href="login.html">Clique aqui</a>
+                </button>
             </p>
         </section>
         </section>
         <section class="servicos">
             <h4 class="prestacao_servicos_sus">Consultas</h4>
             <p class="servicos__disponiveis">
-                <img src="img/calender.png" alt="icone de um calendário ">
+                <i class="fa fa-calendar fa-4x" aria-hidden="true"></i>
                 Só a saúde pública<br> pode alcançar locais do<br> Brasil que a saúde privada nunca conseguirá atingir.
-                <button class="botao" type="submit">Clique aqui</button>
+                <button class="botao" type="submit">
+                    <a href="login.html">Clique aqui</a>
+                </button>
             </p>
         </section>
         <section class="servicos">
             <h4 class="prestacao_servicos_sus">Notícias</h4>
             <p class="servicos__disponiveis">
-                <img src="img/jornal.png" alt="van prestação de serviço">
+                <i class="fa fa-newspaper-o fa-4x" aria-hidden="true"></i>
                 Principais Noticias
-                <button class="botao" type="submit">Clique aqui</button>
+                <button class="botao" type="submit">
+                    <a href="login.html">Clique aqui</a>
+                </button>
             </p>
         </section>
     </main>
