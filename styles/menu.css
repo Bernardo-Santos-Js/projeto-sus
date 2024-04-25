@@ -4,21 +4,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
+img {
+    height: 5vh;
+
+}
 
 body {
     height: 100vh;
     width: 100vw;
     font-family: "Montserrat Alternates", sans-serif;
-    overflow-y: hidden;
 
-}
-
-img {
-    /*não apagar é a imagem do logo*/
-    height: 5vh;
 }
 
 .titulo__pagina {
@@ -28,10 +25,18 @@ img {
     color: rgba(252, 254, 255, 0.897);
     height: 3%;
     text-align: right;
-    padding: 0.5rem;
+    padding: 0.50rem;
 }
 
+.titulo__pagina a {
+    color: #E2EEF1;
+    text-decoration: none;
+}
+
+
+
 .topnav {
+    overflow: hidden;
     background: #E2EEF1;
 }
 
@@ -62,6 +67,10 @@ img {
         display: none;
     }
 
+    .topnav:first-child {
+        padding: 0;
+    }
+
     .topnav a.icon {
         float: right;
         display: block;
@@ -84,110 +93,44 @@ img {
         text-align: left;
     }
 
+
+
     .footer {
         flex-direction: column;
     }
-}
 
-.conteudo__principal {
-    height: 80vh;
-    display: flex;
+    /*
+   .teste{    editar quando for modo tela celular, deixar responsivo
     flex-direction: column;
-    width: 100%;
-    
+   }*/
 }
 
-#dengue {
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
- 
-}
-
-
-.conteudo__noticias__dengue {
-    justify-content: center;
-    align-items: baseline;
-
-
-}
-
-.titulo__noticias__dengue {
-    font-size: 13px;
-    padding: .5rem;
-    color: #ffff;
-    margin: 10px;
-    text-align: center;
-    border: 1px solid #ffff;
-    width: 30vw;
-    background-color: #1275AD;
-    border-radius: 10px;
- 
-
-}
-
-h2 {
-    font-size: 15px;
-    padding: 1rem;
-    
-}
-
-.texto__noticias__dengue {
-    font-size: 15px;
-    height: 20vh;
-    padding: 1rem;
-    text-align: justify;
-  
-   
-}
-
-#botao {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.botao__dengue {
-    display: flex;
-    background-color: #1275AD;
-    text-decoration: none;
-    /*width: 8vh;*/
-    padding: .1rem;
-    color: #ffff;
-    border-radius: 9px;  
-    
-}
 
 .footer {
     font-weight: 600;
     font-style: normal;
     display: flex;
-    gap: 40px;
+    gap: 50px;
     flex-direction: row;
     border: 1px solid #E2EEF1;
     background: #E2EEF1;
-    height: 10vh;
-    padding: 5px;
+    height: 15vh;
+    padding: 0.4rem;
+    font-size: 12px;
 }
 
-
-
-ul li a {
+li a {
+    text-decoration: none;
     color: #797575;
     font-size: 10px;
-    padding: .2rem;
-    text-decoration: none;
-    list-style-type: none;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
 
 .final {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
-    height: 4vh;
-    bottom: 0;    
-   }
-
-  
+    height: 5vh;
+    bottom: 0;
+}
