@@ -58,20 +58,7 @@ function buscaCEP() {
        notifica.open = true;
     } }
 
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
 function limparDados() {
     localStorage.clear();
 }
-=======
->>>>>>> def655eff7972c4234c4486adad18e755fbe045d
 
