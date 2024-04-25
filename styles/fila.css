@@ -195,7 +195,9 @@ img{
         flex: 100%;
     }
 
-   
+    .flex-item-right {
+        flex: 100%;
+    }
 }
 
 .footer {
