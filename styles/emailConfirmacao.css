@@ -99,17 +99,17 @@ img {
  flex-direction: column;
 }
 .subtitulo__pagina{    
-    height: 30vh;
+
     font-size: 20px;
     font-weight: 600;
     text-align: center;
- padding: 5rem;
+    padding: 2rem;
 }
 
 .conteudo__email{
     font-size: 18px;
     gap: 50px;
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     background-color: #e3fcfa25;
 }
