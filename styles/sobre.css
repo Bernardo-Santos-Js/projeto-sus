@@ -8,14 +8,14 @@ h1 {
     
     height: 5vh;
     text-align: center;
-    padding: .5rem;
+    padding: .4rem;
 }
 
 .texto {
     text-align: center;
     font-size: 12px;
-    height: 55vh;
-    padding: 2px;
+    height: 60vh;
+    padding: 2rem;
    
 }
 
@@ -26,8 +26,10 @@ h1 {
 }
 
 .imagem__ouvidoria{
-   
-    height: 8vh;
+   align-items: self-start;
+    height: 10vh;
+    padding: .5rem;
+    
 }
 
 
