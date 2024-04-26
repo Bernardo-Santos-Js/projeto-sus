@@ -5,6 +5,7 @@
     /* align-items: stretch; */
 }
 h1 {
+    font-size: 30px;
     
     height: 5vh;
     text-align: center;
@@ -29,6 +30,7 @@ h1 {
    align-items: self-start;
     height: 10vh;
     padding: .5rem;
+    
     
 }
 
