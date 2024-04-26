@@ -4,3 +4,4 @@ botao.addEventListener("click", () => {/*classList é a ista de class da navbar*
     navBar.classList.toggle('responsive'); /*vai verificar se a classe ja foi aplicada, se sim ele tira se não ele coloca*/
     console.log(botao)
 })
+

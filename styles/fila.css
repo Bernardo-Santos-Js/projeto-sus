@@ -18,7 +18,7 @@ h1 {
 
 .texto__informativo {
     height: 60vh;
-    padding: 5rem;
+    padding: 15rem;
     width: 100vw;
 }
 
@@ -43,15 +43,20 @@ h1 {
 
 @media (max-width: 800px) {
 
-    .texto {
+    .texto__informativo {
         flex: 100%;
+        padding: 5rem;
+        
     }
 
-    .fila {
+    .posicao__fila {
         flex: 100%;
     }
 
      .flex-item-right {
+        flex: 100%;
+    }
+    .texto__pagina {
         flex: 100%;
     }
 }

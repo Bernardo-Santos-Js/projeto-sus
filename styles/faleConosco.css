@@ -1,20 +1,40 @@
-.conteudo_principal {
+.conteudo__principal {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
+
 
 h1 {
-    text-align: center;
-    padding: 0.60rem;
-}
-
-.texto_pagina {
-    text-align: center;
+    padding: 20px;
 
 }
+
+.texto__pagina {
+    text-align: center;
+
+}
+
 .ouvidoria img {
     height: 10vh;
-   
-   
+
+
+}
+
+
+
+@media (max-width: 800px) {
+
+    .texto {
+        flex: 100%;
+    }
+
+    .fila {
+        flex: 100%;
+    }
+
+    .flex-item-right {
+        flex: 100%;
+    }
 }
