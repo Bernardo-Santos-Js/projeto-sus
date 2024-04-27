@@ -1,24 +1,36 @@
 .conteudo__principal {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    padding: 15px;
+
+
 }
 
-
-h1 {
-    padding: 20px;
-
-}
-
-.texto__pagina {
+h2 {
+    font-size: 25px;
+    height: 10px;
+    padding: 10vh;
     text-align: center;
 
 }
 
-.ouvidoria img {
-    height: 10vh;
+.texto_pagina {
+    text-align: center;
+    font-size: 20px;
+    padding: 70px;
 
+}
+
+.ouvidoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh;
+}
+
+.imagem_ouvidoria {
+    height: 120px;
 
 }
 
@@ -26,15 +38,42 @@ h1 {
 
 @media (max-width: 800px) {
 
-    .texto {
-        flex: 100%;
+    body {
+        overflow-x: hidden;
+    }
+    .conteudo__principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
-    .fila {
-        flex: 100%;
+    h2 {
+        font-size: 25px;
+        height: 10px;
+        padding: 2vh;
+        text-align: center;
+
     }
 
-    .flex-item-right {
-        flex: 100%;
+    .texto_pagina {
+        text-align: center;
+        font-size: 15px;
+        padding: 10%;
+
+
     }
+
+    .ouvidoria {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 9vh;
+    }
+
+    .imagem_ouvidoria {
+        height: 90px;
+
+    }
+
 }
