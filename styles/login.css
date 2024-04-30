@@ -123,6 +123,15 @@ body {
     background-color: #797275;
 
 }
+ 
+#notifica {
+
+    padding: 1px;
+  
+    position:relative;
+    left: center;
+    color: #ff0000b9;
+}
 
 @media screen and (max-width: 1330px) {
 

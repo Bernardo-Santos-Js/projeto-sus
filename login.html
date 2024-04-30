@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/login.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-</head>
-
+    
 <body>
     <main class="container">
         <div class="conteudo"> <!--Filho do container, e vai ter todo mundo-->
@@ -17,15 +14,16 @@
             <div class="page">
                 <form method="POST" class="formLogin">
                     <img class="logo" src="img/logo sus.png" alt="Logo SUS">
-                    <h1>Login </h1>
+                    <h1>Login</h1>
                     <p>Digite os seus dados de acesso no campo abaixo.</p>
                     <label for="email">E-mail</label>
-                    <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-                    <label for="password">Senha</label>
-                    <input type="password" placeholder="Digite sua senha" />
+                    <input id="email" type="email" placeholder="Digite seu e-mail" autofocus="true" />
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" placeholder="Digite sua senha" />
                     <a href="#">Esqueci minha senha</a>
                     <input type="submit" value="Acessar" class="btn" />
                 </form>
+                <dialog id="notifica"></dialog>
             </div>
         </div>
     </main>
@@ -41,10 +39,7 @@
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script src="js/libras.js"></script>
     <script src="js/libras.js"></script>
-    =======
-        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
         <script src="js/login.js"></script>
-        <script src="js/cookies.js"></script>
-</body>
+    </body>
 
 </html>
