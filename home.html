@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+        
     <title>Home</title>
 </head>
  
@@ -17,15 +18,21 @@
  
     <h1 class="titulo__pagina"><a href="formulario.html">Fila Sus</a></h1>
     <header>
-        <nav class="topnav" id="navBar">
-            <img src="img/logo sus.png" alt="">
-            <a href="formulario.html">Login</a>
-            <a href="noticias.html"></i>Notícias</a>
-            <a href="faleConosco.html">Fale conosco</a>
-            <a href="sobre.html"></i>Sobre nós</a>
-            <a href="#" class="icon" id="botao"><i class="fa fa-bars"></i></a>
+        <button id="sanduiche"><!-- só aparece em telas pequenas -->
+            <i id="icone" class="fa fa-bars"></i>
+        </button>
+        <div class="logo">
+            <a href="./"><img class="logo_img" src="img/logo sus.png"></a>
+        </div>
+        <nav id="navbar" class="menu">
+            <ul>
+                <li class="item-menu"><a href="./"> Home</a></li>
+                <li class="item-menu"><a href="#"> Noticias </a></li>
+                <li class="item-menu"><a href="#"> Fale Conosco</a></li>
+                <li class="item-menu"><a href="#"> Sobre Nós</a></li>
+            </ul>
         </nav>
-    </header>
+    </header><!-- Fim HEADER -->
     <main class="teste">
         <section class="servicos">
             <h4 class="prestacao_servicos_sus">Serviços</h4>
@@ -84,7 +91,7 @@
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script src="js/libras.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/cookies.js"></script>
 </body>
 <footer>
