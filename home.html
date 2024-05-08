@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
     <link rel="stylesheet" href="styles/carrossel.css">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-        
     <title>Home</title>
 </head>
- 
+
 <body>
- 
+
     <h1 class="titulo__pagina"><a href="formulario.html">Fila Sus</a></h1>
     <header>
-        
+
         <div class="logo">
             <button id="botao"><!-- só aparece em telas pequenas -->
                 <i id="icone" class="fa fa-bars"></i>
@@ -28,10 +27,10 @@
         </div>
         <nav id="navbar" class="menu">
             <ul>
-                <li class="item-menu"><a href="./"> Home</a></li>
-                <li class="item-menu"><a href="#"> Noticias </a></li>
-                <li class="item-menu"><a href="#"> Fale Conosco</a></li>
-                <li class="item-menu"><a href="#"> Sobre Nós</a></li>
+                <li class="item-menu"><a href="home.html"> Home</a></li>
+                <li class="item-menu"><a href="noticias.html"> Noticias </a></li>
+                <li class="item-menu"><a href="faleConosco.html"> Fale Conosco</a></li>
+                <li class="item-menu"><a href="sobre.html"> Sobre Nós</a></li>
             </ul>
         </nav>
     </header><!-- Fim HEADER -->
@@ -39,7 +38,7 @@
         <section class="servicos">
             <h4 class="prestacao_servicos_sus">Serviços</h4>
             <p class="servicos__disponiveis">
- 
+
                 <i class="fa fa-bus fa-4x" aria-hidden="true"></i>
                 O SUS (Sistema Único de Saúde) é imprescindível para possibilitar a população um acesso mais
                 democrático e igualitário a saúde.
@@ -76,24 +75,21 @@
     <section class="servicos__destaques">
         <div class="container">
             <div class="slides">
-               
                 <img class="imagem__carrosel" src="img/1.jpg" alt="Imagem 1" width="90vw">
-                
             </div>
+
             <div class="slides">
-              
-                <img class="imagem__carrosel" src="img/2.jpg" alt="Imagem 2"width="90px">
-                
+                <img class="imagem__carrosel" src="img/2.jpg" alt="Imagem 2" width="90px">
             </div>
-            <div class="slides">
-               
-                <img class="imagem__carrosel" src="img/3.jpg" alt="Imagem 3" width="90px">
-                
+
+            <div class="slides"><a href="fila.html"></a>
+                <img class="imagem__carrosel" src="img/3.jpg" alt="Imagem 3" ><a href="fila.html">Clique aqui</a>
+                <div class="text">Texto da imagem 4</div>
             </div>
-    
+
             <a class="prev" onclick="passarImagem(-1)"> &#11164 </a>
             <a class="next" onclick="passarImagem(+1)"> &#11166 </a>
-    
+
             <div class="pontos">
                 <span class="dot" onclick="passarImagem(1)"></span>
                 <span class="dot" onclick="passarImagem(2)"></span>
@@ -101,9 +97,17 @@
                 <span class="dot" onclick="passarImagem(4)"></span>
             </div>
         </div>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
     </section>
-    <script src="js/home.js"></script> 
-    <script src="js/carrossel.js"></script>    
+
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/carrossel.js"></script>
 
 </body>
 <footer>

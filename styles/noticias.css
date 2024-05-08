@@ -83,14 +83,21 @@ h2 {
     
 }
 
-#zoom{
-    height: 6vh;
-   position: absolute;
-   top: 400px;
-   right: 0;
-   background-color: #00000018;
-   color: #e60000;
-   width: 10vw;
-   border-radius: 20px;
-   font-size: 16px;
+
+
+@media only screen and (max-width: 1200px) {
+    #zoom{
+        height: 6vh;
+       position: absolute;
+       top: 400px;
+       right: 0;
+       background-color: #00000018;
+       color: #e60000;
+       width: 10vw;
+       border-radius: 20px;
+       font-size: 16px;
+    }
+    #detail{
+        display: none;
+    }
 }
