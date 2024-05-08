@@ -82,57 +82,56 @@
                 <img class="imagem__carrosel" src="img/2.jpg" alt="Imagem 2" width="90px">
             </div>
 
-            <div class="slides"><a href="fila.html"></a>
-                <img class="imagem__carrosel" src="img/3.jpg" alt="Imagem 3" ><a href="fila.html">Clique aqui</a>
-                <div class="text">Texto da imagem 4</div>
+            <div class="slides">
+
+
+                <a href="fila.html"><img class="imagem__carrosel" src="img/3.jpg" alt="Imagem 3"></a>
+
             </div>
+
 
             <a class="prev" onclick="passarImagem(-1)"> &#11164 </a>
             <a class="next" onclick="passarImagem(+1)"> &#11166 </a>
 
-            <div class="pontos">
-                <span class="dot" onclick="passarImagem(1)"></span>
-                <span class="dot" onclick="passarImagem(2)"></span>
-                <span class="dot" onclick="passarImagem(3)"></span>
-                <span class="dot" onclick="passarImagem(4)"></span>
-            </div>
         </div>
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div class="vw-plugin-top-wrapper"></div>
-            </div>
     </section>
 
-    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="js/libras.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
     <script src="js/home.js"></script>
     <script src="js/carrossel.js"></script>
+    <footer>
+        <div class="footer">
 
+            <ul>
+                <p> Serviços</p>
+                <li> <a href="login.html">Fila SUS</a></li>
+                <li> <a href="faleConosco.html">Fale Conosco</a></li>
+            </ul>
+            <ul>
+                <p> Consultas</p>
+                <li> <a href="https://meususdigital.saude.gov.br/publico/rede-saude">Consultas mais acessadas</a></li>
+                <li> <a href="https://meususdigital.saude.gov.br/publico/rede-saude">Cirurgias mais consultadas</a></li>
+            </ul>
+            <ul>
+                <p> Noticias</p>
+                <li> <a href="https://meususdigital.saude.gov.br/publico/conteudo/6427204fc2de2d001e16c7b7">Vacinas da
+                        dengue</a></li>
+                <li> <a href="https://meususdigital.saude.gov.br/publico/conteudo/642721d6378265001e35407f">Covid-19</a>
+                </li>
+            </ul>
+        </div>
+        <div class="final"></div>
+    </footer>
 </body>
-<footer>
-    <div class="footer">
-
-        <ul>
-            <p> Serviços</p>
-            <li> <a href="login.html">Fila SUS</a></li>
-            <li> <a href="faleConosco.html">Fale Conosco</a></li>
-        </ul>
-        <ul>
-            <p> Consultas</p>
-            <li> <a href="https://meususdigital.saude.gov.br/publico/rede-saude">Consultas mais acessadas</a></li>
-            <li> <a href="https://meususdigital.saude.gov.br/publico/rede-saude">Cirurgias mais consultadas</a></li>
-        </ul>
-        <ul>
-            <p> Noticias</p>
-            <li> <a href="https://meususdigital.saude.gov.br/publico/conteudo/6427204fc2de2d001e16c7b7">Vacinas da
-                    dengue</a></li>
-            <li> <a href="https://meususdigital.saude.gov.br/publico/conteudo/642721d6378265001e35407f">Covid-19</a>
-            </li>
-        </ul>
-    </div>
-    <div class="final"></div>
-</footer>
-
 
 </html>

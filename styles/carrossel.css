@@ -43,9 +43,7 @@ body {
     bottom: 8px;
     width: 100%;
 }
-.active , .dot:hover {
-    background: #116985;
-}
+
 .pontos {
     text-align: center;
     padding: 3vh;

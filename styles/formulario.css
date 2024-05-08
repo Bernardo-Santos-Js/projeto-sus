@@ -174,13 +174,12 @@ body {
 }
 
 #notifica {
-    background-color: #3d3b3b73;
-    padding: 0.4rem, 1rem;
-    border-radius: 8px;
-    position: absolute;
-    left: 58%;
+    padding: 2px;
+    position: relative;
+    left: center;
     color: #f2f2f2;
-    
+    background-color: #be1010ab;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -195,7 +194,7 @@ body {
     .form {
         width: 100%;
     }
-    
+
 }
 
 @media screen and (max-width: 1064px) {
@@ -228,5 +227,5 @@ body {
     .pne-input {
         margin-top: 0.5rem;
     }
-   
+
 }

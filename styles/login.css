@@ -126,11 +126,12 @@ body {
  
 #notifica {
 
-    padding: 1px;
-  
-    position:relative;
+    padding: 2px;
+    position: relative;
     left: center;
-    color: #ff0000b9;
+    color: #f2f2f2;
+    background-color: #be1010ab;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -143,12 +144,13 @@ body {
     .formLogin p {
         width: 100%;
     }
+  
 }
 
 @media screen and (max-width: 1064px) {
 
     .logo {
-        width: 20vw;
+        width: 40vw;
         margin: auto;
 
     }
@@ -163,8 +165,6 @@ body {
         z-index: 5;
         padding-right: 5rem;
         max-height: 10rem;
-
         flex-wrap: nowrap;
     }
-
 }
