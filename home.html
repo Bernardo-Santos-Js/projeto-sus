@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/carrossel.css">
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
@@ -18,11 +19,12 @@
  
     <h1 class="titulo__pagina"><a href="formulario.html">Fila Sus</a></h1>
     <header>
-        <button id="sanduiche"><!-- só aparece em telas pequenas -->
-            <i id="icone" class="fa fa-bars"></i>
-        </button>
+        
         <div class="logo">
-            <a href="./"><img class="logo_img" src="img/logo sus.png"></a>
+            <button id="botao"><!-- só aparece em telas pequenas -->
+                <i id="icone" class="fa fa-bars"></i>
+            </button>
+            <a href="home.html"><img class="logo_img" src="img/logo oficial.png"></a>
         </div>
         <nav id="navbar" class="menu">
             <ul>
@@ -72,31 +74,41 @@
         <p class="texto__destaques">Destaques</p>
     </section>
     <section class="servicos__destaques">
-        <div>
-            <h2 class="subtitulo__destaques"> Filas sus</h2>
-            <img src="img/MicrosoftTeams-image (11).png" alt="">
-        </div>
- 
-        <div>
-            <h2 class="subtitulo__destaques">Serviços</h2>
-            <img src="img/MicrosoftTeams-image (10).png" alt="">
+        <div class="container">
+            <div class="slides">
+               
+                <img class="imagem__carrosel" src="img/1.jpg" alt="Imagem 1" width="90vw">
+                
+            </div>
+            <div class="slides">
+              
+                <img class="imagem__carrosel" src="img/2.jpg" alt="Imagem 2"width="90px">
+                
+            </div>
+            <div class="slides">
+               
+                <img class="imagem__carrosel" src="img/3.jpg" alt="Imagem 3" width="90px">
+                
+            </div>
+    
+            <a class="prev" onclick="passarImagem(-1)"> &#11164 </a>
+            <a class="next" onclick="passarImagem(+1)"> &#11166 </a>
+    
+            <div class="pontos">
+                <span class="dot" onclick="passarImagem(1)"></span>
+                <span class="dot" onclick="passarImagem(2)"></span>
+                <span class="dot" onclick="passarImagem(3)"></span>
+                <span class="dot" onclick="passarImagem(4)"></span>
+            </div>
         </div>
     </section>
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script src="js/libras.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/cookies.js"></script>
+    <script src="js/home.js"></script> 
+    <script src="js/carrossel.js"></script>    
+
 </body>
 <footer>
     <div class="footer">
- 
+
         <ul>
             <p> Serviços</p>
             <li> <a href="login.html">Fila SUS</a></li>
@@ -117,6 +129,6 @@
     </div>
     <div class="final"></div>
 </footer>
- 
- 
+
+
 </html>
