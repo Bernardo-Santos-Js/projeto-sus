@@ -8,22 +8,13 @@
     
 }
 
-#dengue {
+#dengue  {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
- 
 }
 
-
-.conteudo__noticias__dengue {
-    justify-content: center;
-    align-items: baseline;
-
-
-}
-
-.titulo__noticias__dengue {
+#dengue a{
     font-size: 13px;
     padding: .5rem;
     color: #ffff;
@@ -33,25 +24,26 @@
     width: 50vw;
     background-color: #1275AD;
     border-radius: 10px;
-   
- 
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.conteudo__noticias__dengue {
+    justify-content: center;
+    align-items: baseline;
 
 }
 
 h2 {
     font-size: 15px;
     padding: 1rem;
-    
 }
 
 .texto__noticias__dengue {
     font-size: 15px;
     height: 20vh;
     padding: 1rem;
-    text-align: justify;
-  
-  
-   
+    text-align: justify; 
 }
 
 #botao {
@@ -96,11 +88,11 @@ h2 {
    font-size: 16px;
 }
 
-@media only screen and (min-width: 1500px) { /*tela 1500 ou  maior que isso, tem que ter no minimo*/
+@media only screen and (min-width: 800px) { /*tela 1500 ou  maior que isso, tem que ter no minimo*/  /*estava tela com 1500 reduzi devido o not de casa ser menor a tela*/
     #zoom {
         display: none;
     }
-    .titulo__noticias__dengue {
+    #dengue a {
         width: 20vw;
     }
 
@@ -118,7 +110,7 @@ h2 {
         
     }
     .texto__noticias__dengue{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
