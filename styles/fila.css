@@ -39,7 +39,42 @@ h1 {
     text-align: center;
     color: #ffffff;
 }
+.texto_redes {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 2rem;
+}
 
+.redes {
+    position: absolute;
+    right: 2rem;
+    top: 100%;
+}
+
+.redes ul {
+    display: flex;
+}
+
+.redes ul li {
+    padding-right: 40px;
+}
+
+i {
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1330px) {
+
+    .redes,
+    .texto_redes {
+        display: none;
+    }
+
+
+}
 
 @media (max-width: 800px) {
 
@@ -58,5 +93,9 @@ h1 {
     }
     .texto__pagina {
         flex: 100%;
+    }
+    .redes,
+    .texto_redes {
+        display: none;
     }
 }

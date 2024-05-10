@@ -87,6 +87,30 @@ h2 {
    border-radius: 20px;
    font-size: 16px;
 }
+.texto_redes {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 2rem;
+}
+
+.redes {
+    position: absolute;
+    right: 4rem;
+    top: 102%;
+}
+
+.redes ul {
+    display: flex;
+}
+
+.redes ul li {
+    padding-right: 40px;
+}
+
+i {
+color: #000000;
+}
 
 @media only screen and (min-width: 700px) { /*tela 1500 ou  maior que isso, tem que ter no minimo*/  /*estava tela com 1500 reduzi devido o not de casa ser menor a tela*/
     #zoom {
@@ -136,4 +160,15 @@ h2 {
         display: none;
     }
     
+}
+
+
+
+@media screen and (max-width: 1330px) {
+
+    .redes,
+    .texto_redes {
+        display: none;
+    }
+
 }
