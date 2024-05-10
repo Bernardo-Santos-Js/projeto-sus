@@ -57,7 +57,7 @@ nav ul {
     padding: 15px;
 }
 .item-menu:hover {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 4;
 }
 .item-menu a {
@@ -101,9 +101,10 @@ nav ul {
     }
     .item-menu {
         z-index: 4;
-        font-size: 30px;
+        font-size: 20px;
         width: 100%;
         text-align: center;
+        font-weight: 500;
     }
     .logo {
        
@@ -122,6 +123,8 @@ nav ul {
         border-radius: 30px;
     
     }
+
+  
 
     /*
    .teste{    editar quando for modo tela celular, deixar responsivo

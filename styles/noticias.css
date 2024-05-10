@@ -46,7 +46,7 @@ h2 {
     text-align: justify; 
 }
 
-#botao {
+.botao {
    
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ h2 {
     text-decoration: none;
     height: 4vh;
     font-weight: 600;
-    display: flex;
+    
     
 }
 
@@ -88,7 +88,7 @@ h2 {
    font-size: 16px;
 }
 
-@media only screen and (min-width: 800px) { /*tela 1500 ou  maior que isso, tem que ter no minimo*/  /*estava tela com 1500 reduzi devido o not de casa ser menor a tela*/
+@media only screen and (min-width: 700px) { /*tela 1500 ou  maior que isso, tem que ter no minimo*/  /*estava tela com 1500 reduzi devido o not de casa ser menor a tela*/
     #zoom {
         display: none;
     }
@@ -112,12 +112,28 @@ h2 {
     .texto__noticias__dengue{
         font-size: 18px;
     }
+    .link__covid{
+        text-decoration: none;
+        color: #1275AD;
+        font-weight: 600;
+        
+    }
+    .link__covid:hover{
+        color: rgba(0, 0, 0, 0.5);
+    }
 }
 
-@media only screen and (max-width: 1500px) { /*tela 1500 ou  menor que isso, tem que ter no maximo */
-    #detail{
+@media only screen and (min-width: 650px) { /*tela 1500 ou  menor que isso, tem que ter no maximo */
+  
+    .botao__dengue{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .link__covid{
+        
         display: none;
     }
-
-  
+    
 }
