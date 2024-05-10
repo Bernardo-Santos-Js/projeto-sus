@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', ahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
+    background: #f1f1f1
+}
+/*Início do Logo*/
+img {
+    
+    height: 5vh;
+}
+/*Fim do Logo*/
+
+/*Início do cabeçalho*/
+.titulo__pagina {
+    font-size: 10px;
+    background: linear-gradient(to left, #1275AD, #f9f9f918);
+    width: 100vw;
+    color: rgba(252, 254, 255, 0.897);
+    height: 3%;
+    text-align: right;
+    padding: 0.5rem;
+}
+.topnav {
+    background: #E2EEF1;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #050505;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background: #6d6a6a;
+    color: rgb(255, 255, 255);
+}
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width:500px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .footer {
+        flex-direction: column;
+    }
+}
+/*Fim do cabeçalho*/
+
+/*Início do "button" para "Novo agendamento +"*/
+#abrir {
+    cursor: pointer;
+    position: relative;
+    color: #116985;
+    width: 350px;
+    height: 300px;
+    border-radius: 4%;
+}
+/*Fim do "button" para "Novo agendamento +"*/
+
+/*Início do calendário*/
+.conteudo {
+    left: 50%;
+    margin: 0 0 0 -500px;
+    position: absolute;
+    width: 500px;
+    background: #116985;
+}
+.calendario{
+    position: center;
+}
+.conteudo .calendario header{
+    position: relative;
+}
+h2 {
+    margin-top: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.btn-ant, .btn-pro {
+    position: absolute;
+    top: 50%;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    margin-top: -16px;
+    border: 2px solid #cbd1d2;
+    border-radius: 50px;
+    color: #cbd1d2;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-ant {
+    left: 80px;
+}
+.btn-pro{
+    right: 80px;
+}
+.btn-ant:hover,.btn-and:hover {
+    background: #cbd1d2;
+    color: #f9f9f9;
+}
+/*Fim do calendário*/
+
+/*início do modal*/
+dialog {
+    position: absolute;
+    top: 25%;
+    border: 1px  solid rgb(22, 28, 43);
+    background: rgba(255, 2355, 255, 0.8);
+    width: 400px;
+    height: 350px;
+    padding: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    animation: fade 0.5 s;
+}
+/*dialog header - tinha*/
+dialog #fechar {
+    background: #116985;
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: rgb(32, 9, 1);
+}
+.container {
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    
+}
+.mascara{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;/*não exibir*/
+    backdrop-filter: blur(3px);
+    animation: fade 0.5s ease-in-out;
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100vw;
+    
+}
+/*Fim do modal*/
+
+/*Início do botão para "Próxima página"*/
+
+
+/*Fim do botão para "Próxima página"*/
+
+/*Início lista*/
+.lista li{
+    
+    border: 2px solid #050505;
+    list-style: none;
+    border-radius: 10px;
+}
+.iniciar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+h1{
+    height: 20vh;
+}
+
+.seta {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #116985;
+    border: 1px solid #116985;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ffffff;
+
+}
+/*Fim lista*/
+
+
+
+

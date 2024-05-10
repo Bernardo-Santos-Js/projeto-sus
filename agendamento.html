@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agendamento.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+</head>
+
+<body>
+    <!--Início da parte que será usada em todo o projeto-->
+    <h1 class="titulo__pagina">Fila Sus</h1>
+
+    <header>
+        <nav class="topnav" id="navBar">
+            <img src="img/logo sus.png" alt="">
+            <a href="#">Login</a>
+            <a href="#">Notícias</a>
+            <a href="#">Contato</a>
+            <a href="#">Sobre nós</a>
+
+        </nav>
+    </header>
+    <!--Fim da parte que será usada em todo o projeto-->
+    <section class="consultas">
+    <div class="mascara"></div>
+    <h1>Agendamento de Consulta</h1>
+    <div class="iniciar">
+        <button id="abrir">
+            <b>NOVO AGENDAMENTO<br>+</b>
+            <!--Esse "button" tem a função de abrir o modal para o calendário e o campo de horário-->
+        </button>
+        <ul class="lista">
+            <li>CARDIOLOGISTA - 20 DE JANEIRO DE 2024 - 16:00 PM</li> 
+            <br>        
+        
+            <li>CARDIOLOGISTA - 16 DE FEVEREIRO DE 2024 - 08:30 AM</li>
+            <br>
+        
+            <li>CARDIOLOGISTA - 27 DE MARÇO DE 2024 - 08:00 AM</li>
+            <br>
+        
+            <li>CARDIOLOGISTA - 13 DE MAIO DE 2024 - 08:00 AM</li>
+        </ul>
+    </div>
+</section>
+<div class="container">
+        <dialog id="caixa">
+            <h4>CALENDÁRIO:</h4>
+            <button id="fechar">X</button>
+
+            <!--início do calendário-->
+            <input type="text" id="datepicker">
+                
+                <form>
+                    <b><label for="horas">HORÁRIOS:</label></b><br>
+                    <input type="time">
+
+                   
+                </form>
+                <br>
+                <br>
+                <a href="emailConfirmacao.html"><button class="seta">⮕</button></a>
+
+            </div>
+
+               
+            </div>
+            </div>
+
+        </dialog>
+   
+        <!--Fim do calendário-->
+
+    <script src="agendamento.js"></script>
+</body>
+
+</html>
