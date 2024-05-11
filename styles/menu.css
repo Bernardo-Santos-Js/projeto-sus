@@ -19,8 +19,6 @@ body {
 
 }
 
-
-
 .titulo__pagina {
     font-size: 10px;
     background: linear-gradient(to left, #1275AD, #f9f9f918);
@@ -76,7 +74,7 @@ nav ul {
     padding: 5px 4%;
 }
 .logo_img{
-    max-height: 40px;
+    max-height: 600px;
 }
 
 @media only screen and (max-width: 1064px) {
@@ -116,14 +114,6 @@ nav ul {
         flex-direction: column;
     }
 
-    .imagem__carrosel {
-        vertical-align: middle;
-        width: 20vw;
-        height: 20vh;
-        border-radius: 30px;
-    
-    }
-
   
 
     /*
@@ -143,13 +133,13 @@ nav ul {
     background: #E2EEF1;
     height: 15vh;
     padding: 0.4rem;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .footer li a {
     text-decoration: none;
     color: #797575;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .footer ul {
@@ -160,4 +150,18 @@ nav ul {
     background: linear-gradient(to left, #1275AD, #f9f9f918);
     height: 5vh;
     bottom: 0;
+}
+
+@media screen and (max-width: 1330px) {
+
+    .footer {
+        
+        font-size: 15px;
+    }
+    
+    .footer li a {
+
+        font-size: 10px;
+    }
+    
 }
