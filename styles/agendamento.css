@@ -133,27 +133,28 @@ h2 {
 
 /*início do modal*/
 dialog {
-    position: absolute;
     top: 25%;
-    border: 1px  solid rgb(22, 28, 43);
+    position: absolute;
+    left: 35%;
+    border: 1px solid rgb(22, 28, 43);
     background: rgba(255, 2355, 255, 0.8);
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     padding: 80px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    animation: fade 0.5 s;
+    border-radius: 20px;
+    z-index: 2;
 }
 /*dialog header - tinha*/
 dialog #fechar {
     background: #116985;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #116985;
     position: absolute;
     right: 10px;
     top: 5px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: 600;
-    color: rgb(32, 9, 1);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 .container {
     font-size: 20px;
@@ -167,7 +168,7 @@ dialog #fechar {
     height: 100%;
     display: none;/*não exibir*/
     backdrop-filter: blur(3px);
-    animation: fade 0.5s ease-in-out;
+    z-index: 1;
 }
 @keyframes fade {
     from{
@@ -203,31 +204,40 @@ dialog #fechar {
 }
 .iniciar{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items: center;
+    font-size: 18px;
+    gap: 50px;
+    height: 80vh;
+    text-align: center;
 }
 h1{
     height: 20vh;
 }
 
 .seta {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 30px;
-    font-size: 24px;
+    padding: .1rem;
     background-color: #116985;
     border: 1px solid #116985;
-    border-radius: 50px;
+    border-radius: 20px;
     cursor: pointer;
-    transition: 0.5s;
     color: #ffffff;
+    margin: 12px;
+    width: 5vw;
 
 }
 /*Fim lista*/
+
+.inicio {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5rem;
+
+}
+
 
 
 

@@ -1,5 +1,5 @@
 //Início da configuração do "Dialog"
-const botao = document.getElementById('abrir');
+const abrir = document.getElementById('abrir');
 const caixa = document.getElementById('caixa');
 const mascara = document.querySelector('.mascara');
 const fechar = document.getElementById('fechar');
@@ -9,7 +9,7 @@ fechar.addEventListener('click', (e)=> {
     caixa.open = false;
 });
 
-botao.addEventListener('click', (e)=>{
+abrir.addEventListener('click', (e)=>{
     abrirMascara(true);
     caixa.open = true;
 });
@@ -25,6 +25,8 @@ function abrirMascara(valor){
     }
 }
     //Fim da configuração do "Dialog"
+
+
 
     //Início do "calendario"
 
