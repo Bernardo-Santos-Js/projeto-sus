@@ -14,12 +14,23 @@ let contagem = 16;
 $('#zoom').click(() => {
    
     $('.texto__noticias__dengue').css('font-size', contagem + "px");
-  if(contagem >= 17){
+  if(contagem >= 15){
     contagem = contagem
   }else{
     contagem = contagem + 2;
   }
   $('.titulo__noticias__dengue').css('z-index', "-1");
+});
+
+$('#zoom').click(() => {
+   
+  $('.texto_pagina').css('font-size', contagem + "px");
+if(contagem >= 15){
+  contagem = contagem
+}else{
+  contagem = contagem + 2;
+}
+$('.texto_pagina').css('z-index', "-1");
 });
 
 

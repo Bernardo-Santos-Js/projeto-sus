@@ -78,3 +78,14 @@ body {
     position: absolute;
     top: 0;
 }
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        max-width: 320px;
+        position: relative;
+        margin: auto;
+        width: 100%;
+    }
+
+}

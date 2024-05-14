@@ -58,6 +58,17 @@ h1 {
 i {
     color: black;
 }
+#zoom{
+    height: 6vh;
+   position: absolute;
+   top: 400px;
+   right: 0;
+   background-color: #00000018;
+   color: #e60000;
+   width: 10vw;
+   border-radius: 20px;
+   font-size: 16px;
+}
 
 
 
@@ -109,5 +120,11 @@ i {
         border-radius: 20px;
 
 
+    }
+}
+
+@media only screen and (min-width: 700px) { /*tela 1500 ou  maior que isso, tem que ter no minimo*/  /*estava tela com 1500 reduzi devido o not de casa ser menor a tela*/
+    #zoom {
+        display: none;
     }
 }
