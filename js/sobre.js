@@ -7,3 +7,15 @@ navbar.classList.toggle('menu'); /*vai verificar se a classe ja foi aplicada, se
 
 
 
+let contagem = 16;
+
+$('#zoom').click(() => {
+   
+    $('.texto_pagina').css('font-size', contagem + "px");
+  if(contagem >= 17){
+    contagem = contagem
+  }else{
+    contagem = contagem + 2;
+  }
+  $('.texto_pagina').css('z-index', "-1");
+});

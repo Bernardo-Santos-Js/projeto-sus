@@ -12,6 +12,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 1rem;
 }
 
 #dengue a{
@@ -26,6 +27,7 @@
     border-radius: 10px;
     text-decoration: none;
     font-weight: 800;
+
 }
 
 .conteudo__noticias__dengue {
@@ -44,6 +46,7 @@ h2 {
     height: 20vh;
     padding: 1rem;
     text-align: justify; 
+  
 }
 
 .botao {
@@ -145,18 +148,20 @@ color: #000000;
     .link__covid:hover{
         color: rgba(0, 0, 0, 0.5);
     }
+    .botao__dengue {
+        display:block;
+    }
 }
 
-@media only screen and (min-width: 650px) { /*tela 1500 ou  menor que isso, tem que ter no maximo */
+@media only screen and (max-width: 700px )  { /*tela 1500 ou  menor que isso, tem que ter no maximo */
   
-    .botao__dengue{
+    .botao__dengue {
         display:none;
     }
 }
 
 @media only screen and (max-width: 900px){
     .link__covid{
-        
         display: none;
     }
     
