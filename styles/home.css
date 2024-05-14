@@ -48,7 +48,7 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
-    /* padding: .9rem; */
+    padding: .7rem; 
     justify-content: space-between;
     font-weight: 500;
     font-style: normal;
