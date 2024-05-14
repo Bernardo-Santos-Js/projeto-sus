@@ -47,20 +47,21 @@
         <h1 class="inicio">AGENDAMENTO DE CONSULTA</h1>
         <div class="iniciar">
             <button id="abrir">
-                <b>NOVO AGENDAMENTO</b>
+                <h3>NOVO AGENDAMENTO</h3>
+                <i class="fa fa-plus-circle" aria-hidden="true"></i>
                 <!--Esse "button" tem a função de abrir o modal para o calendário e o campo de horário-->
             </button>
             <ul class="lista">
-                <li>CARDIOLOGISTA - 20 DE JANEIRO DE 2024 - 16:00 PM</li>
+                <li>20 DE JANEIRO DE 2024 - 16:00 PM - CARDIOLOGISTA</li>
                 <br>
 
-                <li>CARDIOLOGISTA - 16 DE FEVEREIRO DE 2024 - 08:30 AM</li>
+                <li>16 DE FEVEREIRO DE 2024 - 08:30 AM - CARDIOLOGISTA</li>
                 <br>
 
-                <li>CARDIOLOGISTA - 27 DE MARÇO DE 2024 - 08:00 AM</li>
+                <li>27 DE MARÇO DE 2024 - 08:00 AM - CARDIOLOGISTA</li>
                 <br>
 
-                <li>CARDIOLOGISTA - 13 DE MAIO DE 2024 - 08:00 AM</li>
+                <li>13 DE MAIO DE 2024 - 08:00 AM - CARDIOLOGISTA</li>
             </ul>
         </div>
     </section>
@@ -71,10 +72,41 @@
 
             <!--início do calendário-->
             <input type="text" id="datepicker">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
 
             <form>
-                <b><label for="horas">HORÁRIOS:</label></b><br>
+                <label for="horas">
+                    <h4>HORÁRIOS:</h4>
+                </label>
                 <input type="time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                <h4>ESPECIALISTAS:</h4>
+                <select name="especialista">
+                    <option value="Vazio"></option>
+                    <option value="card">Cardiolosgista</option>
+                    <option value="cir">Cirurgião</option>
+                    <option value="cg">Clínico Geral</option>
+                    <option value="der">Dermatologista</option>
+                    <option value="end">Endocrinologista</option>
+                    <option value="gas">Gastroenterologista</option>
+                    <option value="mg">Médico Geneticista</option>
+                    <option value="ger">Geriatra</option>
+                    <option value="gin">Ginecologista</option>
+                    <option value="inf">Infectologista</option>
+                    <option value="mt">Médico do Trabalho</option>
+                    <option value="nef">Nefrologista</option>
+                    <option value="ner">Neurologista</option>
+                    <option value="oft">Oftalmologista</option>
+                    <option value="onc">Oncologista</option>
+                    <option value="ort">Ortopedista</option>
+                    <option value="otor">Otorrinolaringologista</option>
+                    <option value="ped">Pediatra</option>
+                    <option value="pneu">Pneumologista</option>
+                    <option value="psiq">Psiquiatra</option>
+                </select>
+                <i class="fa fa-user-md" aria-hidden="true"></i>
+
             </form>
 
             <a href="emailConfirmacao.html"><button class="seta">⮕</button></a>

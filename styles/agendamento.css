@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -10,11 +10,13 @@ body {
     overflow-x: hidden;
     background: #f1f1f1
 }
+
 /*Início do Logo*/
 img {
-    
+
     height: 5vh;
 }
+
 /*Fim do Logo*/
 
 /*Início do cabeçalho*/
@@ -27,9 +29,11 @@ img {
     text-align: right;
     padding: 0.5rem;
 }
+
 .topnav {
     background: #E2EEF1;
 }
+
 .topnav a {
     float: left;
     display: block;
@@ -39,10 +43,12 @@ img {
     text-decoration: none;
     font-size: 17px;
 }
+
 .topnav a:hover {
     background: #6d6a6a;
     color: rgb(255, 255, 255);
 }
+
 .topnav .icon {
     display: none;
 }
@@ -60,20 +66,24 @@ img {
     .topnav.responsive {
         position: relative;
     }
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
     }
+
     .footer {
         flex-direction: column;
     }
 }
+
 /*Fim do cabeçalho*/
 
 /*Início do "button" para "Novo agendamento +"*/
@@ -85,6 +95,7 @@ img {
     height: 300px;
     border-radius: 4%;
 }
+
 /*Fim do "button" para "Novo agendamento +"*/
 
 /*Início do calendário*/
@@ -95,18 +106,23 @@ img {
     width: 500px;
     background: #116985;
 }
-.calendario{
+
+.calendario {
     position: center;
 }
-.conteudo .calendario header{
+
+.conteudo .calendario header {
     position: relative;
 }
+
 h2 {
     margin-top: 20px;
     font-size: 32px;
     text-transform: uppercase;
 }
-.btn-ant, .btn-pro {
+
+.btn-ant,
+.btn-pro {
     position: absolute;
     top: 50%;
     height: 32px;
@@ -119,16 +135,21 @@ h2 {
     font-size: 16px;
     font-weight: bold;
 }
+
 .btn-ant {
     left: 80px;
 }
-.btn-pro{
+
+.btn-pro {
     right: 80px;
 }
-.btn-ant:hover,.btn-and:hover {
+
+.btn-ant:hover,
+.btn-and:hover {
     background: #cbd1d2;
     color: #f9f9f9;
 }
+
 /*Fim do calendário*/
 
 /*início do modal*/
@@ -138,12 +159,14 @@ dialog {
     left: 35%;
     border: 1px solid rgb(22, 28, 43);
     background: rgba(255, 2355, 255, 0.8);
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 310px;
     padding: 80px;
     border-radius: 20px;
     z-index: 2;
+    animation: fade 0.5 s;
 }
+
 /*dialog header - tinha*/
 dialog #fechar {
     background: #116985;
@@ -156,38 +179,46 @@ dialog #fechar {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
 .container {
     font-size: 20px;
     padding: 0.5rem 2rem;
-    
+
 }
-.mascara{
+
+.mascara {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
-    display: none;/*não exibir*/
+    display: none;
+    /*não exibir*/
     backdrop-filter: blur(3px);
     z-index: 1;
+    animation: fade 0.5s ease-in-out;
 }
+
 @keyframes fade {
-    from{
+    from {
         opacity: 0;
         transform: scale(0);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: scale(1);
     }
 }
+
 .container {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: stretch;
     width: 100vw;
-    
+
 }
+
 /*Fim do modal*/
 
 /*Início do botão para "Próxima página"*/
@@ -196,13 +227,14 @@ dialog #fechar {
 /*Fim do botão para "Próxima página"*/
 
 /*Início lista*/
-.lista li{
-    
+.lista li {
+
     border: 2px solid #050505;
     list-style: none;
     border-radius: 10px;
 }
-.iniciar{
+
+.iniciar {
     display: flex;
     align-content: stretch;
     justify-content: space-evenly;
@@ -212,7 +244,8 @@ dialog #fechar {
     height: 80vh;
     text-align: center;
 }
-h1{
+
+h1 {
     height: 20vh;
 }
 
@@ -227,6 +260,7 @@ h1{
     width: 5vw;
 
 }
+
 /*Fim lista*/
 
 .inicio {
@@ -237,8 +271,3 @@ h1{
     padding: 5rem;
 
 }
-
-
-
-
-
