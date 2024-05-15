@@ -29,35 +29,12 @@ h1 {
 }
 
 .imagem__corrente {
-    height: 250px;
+    height: 100px;
     border-radius: 20px;
 
 }
 
-.texto_redes {
-    font-size: 20px;
-    font-weight: 400;
-    position: absolute;
-    right: 2rem;
-}
 
-.redes {
-    position: absolute;
-    right: 2rem;
-    top: 108%;
-}
-
-.redes ul {
-    display: flex;
-}
-
-.redes ul li {
-    padding-right: 40px;
-}
-
-i {
-    color: black;
-}
 #zoom{
     height: 6vh;
    position: absolute;
@@ -70,7 +47,9 @@ i {
    font-size: 16px;
 }
 
-
+.redes {
+    top: 110%;
+}
 
 @media screen and (max-width: 1330px) {
 
@@ -102,7 +81,7 @@ i {
     }
 
     .texto_pagina {
-        text-align: center;
+        text-align: justify;
         font-size: 12px;
         padding: 12%;
 
