@@ -129,7 +129,7 @@ h2 {
         color: rgba(0, 0, 0, 0.5);
     }
     .botao__dengue {
-        display:block;
+        display:none;
     }
 }
 
@@ -138,12 +138,14 @@ h2 {
     .botao__dengue {
         display:none;
     }
+   
 }
 
 @media only screen and (max-width: 900px){
     .link__covid{
         display: none;
     }
+    
     
 }
 
@@ -153,5 +155,4 @@ h2 {
     .texto_redes {
         display: none;
     }
-
 }
