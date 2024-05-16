@@ -41,7 +41,7 @@ h1 {
 }
 
 .redes {
-    top: 100%;
+    top: 102%;
 }
 
 @media screen and (max-width: 1330px) {
@@ -58,8 +58,7 @@ h1 {
 
     .texto__informativo {
         flex: 100%;
-        padding: 08rem;
-
+        padding: 5rem;
         
     }
 
@@ -69,6 +68,7 @@ h1 {
 
      .flex-item-right {
         flex: 100%;
+        text-align: center;
     }
     .texto__pagina {
         flex: 100%;

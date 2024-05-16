@@ -26,8 +26,9 @@ body {
     color: rgba(252, 254, 255, 0.897);
     height: 5%;
     text-align: right;
-    padding-top: 0.3rem;
-    padding-right: 3rem;
+    padding: 0.50rem;
+    padding-right: 2rem;
+    font-weight: 900px;
 }
 
 .titulo__pagina a {
