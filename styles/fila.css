@@ -50,7 +50,11 @@ h1 {
     .texto_redes {
         display: none;
     }
-
+    
+    .flex-item-right {
+        flex: 100%;
+        text-align: center;
+    }
 
 }
 
