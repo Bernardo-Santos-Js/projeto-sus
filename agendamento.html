@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="styles/calendario.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
     <title>Agendamento</title>
@@ -74,12 +75,17 @@
             <input type="text" id="datepicker">
             <i class="fa fa-calendar" aria-hidden="true"></i>
 
+            <div class="calendario" id="calendario"></div>
+            <input type="hidden" id="data" name="data">
+
+
             <form>
                 <label for="horas">
                     <h4>HORÁRIOS:</h4>
                 </label>
                 <input type="time">
                 <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <button class="bc">Confirmar</button>
 
                 <h4>ESPECIALISTAS:</h4>
                 <select name="especialista">

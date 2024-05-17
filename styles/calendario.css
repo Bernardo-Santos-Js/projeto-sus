@@ -1,0 +1,67 @@
+/* css do calendario jquery*/
+.ui-datepicker .ui-datepicker-title {
+    border-radius: 50px;
+    line-height: 1.8em;
+    text-align: center;
+  }
+ 
+  .ui-widget-header {
+    border: none;
+    border-radius: 20px;
+    background: #cccccc;
+    color: #020101;
+    font-weight: 900;
+    font-family: "Playfair Display", serif;
+  }
+ 
+  .ui-datepicker-calendario {
+    background: #000000;
+  }
+ 
+  .ui-datepicker {
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #00000040;
+   
+  }
+  .ui-widget.ui-widget-content {
+    border: none;
+}
+ 
+  /*.ui-datepicker td span,*/
+  .ui-datepicker td a {
+   /* max-width: 22px;*/
+    display: block;
+    padding: .25em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  }
+ 
+  .ui-datepicker-week-end {
+    /*sábado e domingo*/
+    font-weight: 100;
+  }
+  .ui-datepicker th {
+    padding: .7em .3em;
+    text-align: center;
+    font-weight: bold;
+    color: #116985;
+  }
+ 
+  .ui-state-default,
+  .ui-widget-content .ui-state-default {
+    background: #cdcfcf;
+    border: none;
+   
+  }
+ 
+  .ui-state-active,
+  .ui-widget-content .ui-state-active {
+    background: #116985;;
+    border: 1px #116985;
+    color: #ffffff;
+  }
+
+  
+
+  /* css do calendario jquery*/

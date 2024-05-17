@@ -169,6 +169,7 @@ dialog {
 
 /*dialog header - tinha*/
 dialog #fechar {
+
     background: #116985;
     border: 1px solid #116985;
     position: absolute;
@@ -272,39 +273,54 @@ h1 {
 
 }
 
+
 /*Layout Responsivo*/
 @media screen and (min-width: 401px) and (max-width: 700px) {
 
     .inicio {
         font-size: 100%;
     }
+
     .iniciar {
         flex-direction: column;
         justify-content: space-evenly;
     }
-    
+
     #abrir {
         width: 300px;
         height: 250px;
     }
+
     .lista {
         font-size: 14px;
 
     }
+
     dialog {
         left: 10%;
         width: 340px;
         height: 310px;
     }
-    .seta {
-        width: 20vw;
-    }
 
-    .redes, .texto_redes p {
+    .redes,
+    .texto_redes p {
         display: none;
 
     }
+    .bc {
+    display: none;
+        
+    }
+
+}
+
+
+.bc {
+    background-color: #116985;
+    border: 1px solid #116985;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 12px;
+    cursor: pointer;
     
-    
-  
 }
