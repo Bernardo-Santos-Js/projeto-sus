@@ -20,14 +20,15 @@ body {
 }
 
 .titulo__pagina {
-    font-size: 10px;
+    font-size: 20px;
     background: linear-gradient(to left, #1275AD, #f9f9f918);
     width: 100vw;
     color: rgba(252, 254, 255, 0.897);
-    height: 3%;
+    height: 5%;
     text-align: right;
     padding: 0.50rem;
     padding-right: 2rem;
+    font-weight: 900px;
 }
 
 .titulo__pagina a {
