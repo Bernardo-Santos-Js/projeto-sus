@@ -94,6 +94,59 @@ body {
         height: 100px;
         max-width: 600px;
     }
+    .prev,
+.next {
+    cursor: pointer;
+    /* mãozinha*/
+    position: absolute;
+    top: 30%;
+    padding: 5px;
+    color: #116985;
+    font-size: 15px;
+    border-radius: 0 5px 5px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev:hover,
+.next:hover {
+    background: #ffff;
+}
+
+.text {
+    color: rgb(20, 20, 20);
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+}
+
+.pontos {
+    text-align: center;
+    padding: 3vh;
+
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.numbers {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
     
 
 }
