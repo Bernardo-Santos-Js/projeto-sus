@@ -1,7 +1,7 @@
 let slideIndex = 1;
         showSlides(slideIndex);
  
-        function plusSlides(n) {
+        function passarImagem(n) {
             showSlides(slideIndex += n);
         }
  
@@ -29,3 +29,4 @@ let slideIndex = 1;
                 showSlides(slideIndex += 1);
             }, 3000);
         }
+

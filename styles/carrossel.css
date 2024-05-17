@@ -13,7 +13,7 @@ body {
 .imagem__carrosel {
     width: 100%;
     border-radius: 30px;
-    height: 125px;
+    height: 205px;
     
 }
 
@@ -87,5 +87,13 @@ body {
         margin: auto;
         width: 100%;
     }
+
+    .imagem__carrosel {
+        width: 100%;
+        border-radius: 30px;
+        height: 100px;
+        max-width: 600px;
+    }
+    
 
 }

@@ -37,7 +37,7 @@
     font-style: normal;
 }
 .servicos__disponiveis {
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     border: 0px solid rgba(252, 254, 255, 0.897);
     background-color: #E2EEF1;
@@ -76,11 +76,6 @@
     justify-content: center;
 
 }
-img{
-    height:5vh;
-   
-}
-
 .texto__destaques {
     font-size: 25px;
     font-weight: 600;
