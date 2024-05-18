@@ -165,6 +165,8 @@ dialog {
     border-radius: 20px;
     z-index: 2;
     animation: fade 0.5 s;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /*dialog header - tinha*/
@@ -272,6 +274,16 @@ h1 {
     padding: 5rem;
 
 }
+.bc {
+    background-color: #116985;
+    border: 1px solid #116985;
+    border-radius: 2px;
+    color: #ffffff;
+    margin: 12px;
+    cursor: pointer;
+    width: 8vw;
+    
+}
 
 
 /*Layout Responsivo*/
@@ -315,12 +327,3 @@ h1 {
 }
 
 
-.bc {
-    background-color: #116985;
-    border: 1px solid #116985;
-    border-radius: 20px;
-    color: #ffffff;
-    margin: 12px;
-    cursor: pointer;
-    
-}

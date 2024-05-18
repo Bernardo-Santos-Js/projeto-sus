@@ -39,8 +39,18 @@ function abrirMascara(valor){
         dayNames: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Sexta', 'Sábado'],
         dayNamesMin: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
         monthNames: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+        nextText: 'Próximo',
+                prevText: 'Anterior',
+                closeText: 'Fechar',
+                beforeShowDay: function (date) {
+                    if (date.getDate() >= 15 && date.getDate() <= 18) {
+                        return [true, 'dia_especifico'];
+                    }
+                    return [true, ''];
+                },
         onselect: (data)=>{
             $('#data').val(data);
+            
         }
     });
 
