@@ -10,9 +10,13 @@ h1 {
     flex-direction: column;
 }
 
+p {
+    font-weight: 500;
+}
 
 .texto__pagina {
     text-align: center;
+
  
 }
 
@@ -20,11 +24,13 @@ h1 {
     height: 60vh;
     padding: 15rem;
     width: 100vw;
+    font-weight: 450;
 }
 
 .posicao__fila {
     text-align: center;
     padding: 40px;
+   
 }
 
 .flex-item-right {
@@ -38,6 +44,7 @@ h1 {
     font-size: 20px;
     text-align: center;
     color: #ffffff;
+    font-weight: 600;
 }
 
 .redes {
