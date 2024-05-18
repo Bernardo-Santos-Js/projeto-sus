@@ -129,7 +129,7 @@ h2 {
         color: rgba(0, 0, 0, 0.5);
     }
     .botao__dengue {
-        display:block;
+        display:none;
     }
 }
 
@@ -144,6 +144,9 @@ h2 {
     .link__covid{
         display: none;
     }
+    .botao__dengue {
+        display:block;
+    }
     
 }
 
@@ -153,5 +156,5 @@ h2 {
     .texto_redes {
         display: none;
     }
-
+   
 }

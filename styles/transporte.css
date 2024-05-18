@@ -1,0 +1,45 @@
+#servicos__transportes{
+    margin-top: 10px;
+    font-size: 15px
+}
+
+#texto__principal{
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+summary{
+    padding: 5px;
+    color: #1275AD;
+    font-weight: 600;
+}
+
+details{
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+
+    #servicos__transportes{
+        margin-top: 10px;
+        font-size: 25px
+    }
+    
+
+    #texto__principal{
+        margin-top: 20px;
+        font-size: 17px;
+        padding: 10px 10px 10px 10px;
+        text-align: justify;
+    }
+    .imagem__corrente{
+        height: 175px;
+    }
+    .redes{
+        top: 90%;
+    }
+}
