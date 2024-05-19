@@ -44,6 +44,7 @@ header nav {
     justify-content: center;
     align-items: center;
     z-index: 2;
+   
 }
 nav ul {
     list-style: none;/*sem estilo na lista*/
@@ -51,6 +52,7 @@ nav ul {
     justify-content: center;/*alinhamento horizontal dos itens*/
     align-items: center; /*alinhamento vertical dos itens*/
     z-index: 3;
+    font-size: 20px;
 }
 .item-menu {
     padding: 15px;
@@ -116,7 +118,6 @@ nav ul {
     }
 
   
-
     /*
    .teste{    editar quando for modo tela celular, deixar responsivo
     flex-direction: column;

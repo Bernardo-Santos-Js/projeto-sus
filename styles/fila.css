@@ -10,26 +10,19 @@ h1 {
     flex-direction: column;
 }
 
-p {
-    font-weight: 500;
-}
-
-.texto__pagina {
-    text-align: center;
-
- 
-}
-
 .texto__informativo {
     height: 60vh;
-    padding: 15rem;
+    padding: 6rem;
     width: 100vw;
     font-weight: 450;
+    text-align: justify;
+    font-size: 20px;
 }
 
 .posicao__fila {
     text-align: center;
     padding: 40px;
+    font-size: 20px;
    
 }
 
@@ -37,14 +30,14 @@ p {
     background: #1275AD;
     width: 30vh;
     height: 10vh;
-    padding: 35px;
+    padding: 20px;
     border: 1px solid #01010198;
     border-radius: 20px;
     box-sizing: border-box;
     font-size: 20px;
-    text-align: center;
     color: #ffffff;
     font-weight: 600;
+    text-align: center;
 }
 
 .redes {

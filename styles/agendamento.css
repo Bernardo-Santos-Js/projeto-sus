@@ -1,92 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
-
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: "Montserrat Alternates", sans-serif;
+h3 {
+    padding: 25px;
 }
-
-body {
-    overflow-x: hidden;
-    background: #f1f1f1
-}
-
-/*Início do Logo*/
-img {
-
-    height: 5vh;
-}
-
-/*Fim do Logo*/
-
-/*Início do cabeçalho*/
-.titulo__pagina {
-    font-size: 10px;
-    background: linear-gradient(to left, #1275AD, #f9f9f918);
-    width: 100vw;
-    color: rgba(252, 254, 255, 0.897);
-    height: 3%;
-    text-align: right;
-    padding: 0.5rem;
-}
-
-.topnav {
-    background: #E2EEF1;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #050505;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background: #6d6a6a;
-    color: rgb(255, 255, 255);
-}
-
-.topnav .icon {
-    display: none;
-}
-
-@media screen and (max-width:500px) {
-    .topnav a:not(:first-child) {
-        display: none;
-    }
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .footer {
-        flex-direction: column;
-    }
-}
-
-/*Fim do cabeçalho*/
 
 /*Início do "button" para "Novo agendamento +"*/
 #abrir {
@@ -96,6 +10,7 @@ img {
     width: 350px;
     height: 300px;
     border-radius: 4%;
+    background-color: #E2EEF1;
 }
 
 /*Fim do "button" para "Novo agendamento +"*/
@@ -156,38 +71,35 @@ h2 {
 
 /*início do modal*/
 dialog {
-    top: 25%;
+    top: 40%;
     position: absolute;
-    left: 35%;
+    left: 40%;
     border: 1px solid rgb(22, 28, 43);
-    background: rgba(255, 2355, 255, 0.8);
-    width: 360px;
-    height: 310px;
-    padding: 80px;
+    background: #E2EEF1;
+    padding: 40px;
     border-radius: 20px;
     z-index: 2;
-    animation: fade 0.5 s;
-    justify-content: center;
-    flex-direction: column;
 }
 
 /*dialog header - tinha*/
-dialog #fechar {
-
-    background: #116985;
-    border: 1px solid #116985;
+#fechar {
+    background: #000000;
+    border: 5px solid #000000;
     position: absolute;
     right: 10px;
     top: 5px;
-    border-radius: 30px;
+    border-radius: 5px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-
 .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100vw;
     font-size: 20px;
-    padding: 0.5rem 2rem;
 
 }
 
@@ -195,12 +107,12 @@ dialog #fechar {
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: none;
     /*não exibir*/
     backdrop-filter: blur(3px);
     z-index: 1;
-    animation: fade 0.5s ease-in-out;
+    animation: fade 0.2s ease-in-out;
 }
 
 @keyframes fade {
@@ -210,19 +122,12 @@ dialog #fechar {
     }
 
     to {
-        opacity: 1;
+        opacity: 80;
         transform: scale(1);
     }
 }
 
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: stretch;
-    width: 100vw;
 
-}
 
 /*Fim do modal*/
 
@@ -234,9 +139,11 @@ dialog #fechar {
 /*Início lista*/
 .lista li {
 
-    border: 2px solid #050505;
+    border: 1px solid #050505;
     list-style: none;
-    border-radius: 10px;
+    border-radius: 6px;
+    background-color: #E2EEF1;
+    padding: 5px 18px 5px 18px;
 }
 
 .iniciar {
@@ -255,14 +162,14 @@ h1 {
 }
 
 .seta {
-    padding: .1rem;
-    background-color: #116985;
-    border: 1px solid #116985;
-    border-radius: 20px;
+    padding: .3rem;
+    background-color: #1275AD;
+    border: 1px solid #000000;
+    border-radius: 10px;
     cursor: pointer;
     color: #ffffff;
-    margin: 12px;
-    width: 5vw;
+    margin: 20px;
+  
 
 }
 
@@ -276,6 +183,7 @@ h1 {
     padding: 5rem;
 
 }
+
 .bc {
     background-color: #116985;
     border: 1px solid #116985;
@@ -283,13 +191,18 @@ h1 {
     color: #ffffff;
     margin: 12px;
     cursor: pointer;
-    width: 8vw;
-    
+    width: 10vw;
+
 }
 
+#datas{
+    color: #1275AD;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 /*Layout Responsivo*/
-@media screen and (min-width: 401px) and (max-width: 700px) {
+@media screen and (max-width: 430px) {
 
     .inicio {
         font-size: 100%;
@@ -311,21 +224,69 @@ h1 {
     }
 
     dialog {
-        left: 10%;
-        width: 340px;
-        height: 310px;
+        top:50%;
+        position: absolute;
+        left: 50px;
+        border: 1px solid rgb(22, 28, 43);
+        background: #E2EEF1;
+      
+        border-radius: 20px;
+        z-index: 2;
     }
 
+    @media screen and (max-width: 390px) {
+        
+    .inicio {
+        font-size: 100%;
+    }
+
+    .iniciar {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #abrir {
+        width: 300px;
+        height: 250px;
+    }
+
+    .lista {
+        font-size: 14px;
+
+    }
+
+    dialog {
+        top: 50%;
+        position: absolute;
+        left: 23px;
+        border: 1px solid rgb(22, 28, 43);
+        background: #E2EEF1;      
+        border-radius: 20px;
+        z-index: 2;
+    }
+}
+  
+.mascara {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+    animation: fade 0.2s ease-in-out;
+}
     .redes,
     .texto_redes p {
         display: none;
 
     }
+
     .bc {
-    display: none;
-        
+        display: none;
+
     }
 
 }
+
 
 
