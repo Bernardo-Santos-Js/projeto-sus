@@ -6,7 +6,7 @@ h3 {
 #abrir {
     cursor: pointer;
     position: relative;
-    color: #116985;
+    color: #1275AD;
     width: 350px;
     height: 300px;
     border-radius: 4%;
@@ -21,7 +21,7 @@ h3 {
     margin: 0 0 0 -500px;
     position: absolute;
     width: 500px;
-    background: #116985;
+    background: #1275AD;
 }
 
 .calendario {
@@ -185,8 +185,8 @@ h1 {
 }
 
 .bc {
-    background-color: #116985;
-    border: 1px solid #116985;
+    background-color: #1275AD;
+    border: 1px solid #1275AD;
     border-radius: 2px;
     color: #ffffff;
     margin: 12px;
