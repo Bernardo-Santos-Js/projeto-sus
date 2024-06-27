@@ -131,6 +131,7 @@ nav ul {
     display: flex;
     gap: 50px;
     flex-direction: row;
+    justify-content: center;
     border: 1px solid #E2EEF1;
     background: #E2EEF1;
     height: 15vh;
