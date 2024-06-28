@@ -87,24 +87,32 @@
 
                 </div>
 
-                <div class="pne-inputs">
+                <div class="pne-input">
                     <div class="pne-title">
-                        <h6>Possui necessidades especiais?</h6>
+                        <h6>Possui algum tipo de deficiência?</h6>
                     </div>
-
                     <div class="pne-group">
-                        <div class="pne-input">
-                            <input id="pne" type="checkbox" name="sim">
-                            <label for="pne">Sim</label>
-                        </div>
-
-                        <div class="pne-input">
-                            <input id="pne" type="checkbox" name="nao">
-                            <label for="pne">Não</label>
-                        </div>
+                        <select name="deficiencias" id="select">
+                            <option value="">Não</option>
+                            <option value="auditiva">Deficiência Auditiva</option>
+                            <option value="fisica">Deficiência Física</option>
+                            <option value="intelectual">Deficiência Intelectual</option>
+                            <option value="visual">Deficiência Visual</option>
+                            <option value="down">Síndrome de Down</option>
+                            <option value="tea">Transtorno do Espectro Autista (TEA)</option>
+                            <option value="tdah">Transtorno do déficit de atenção com hiperatividade (TDAH)</option>
+                        </select>
+                    </div>
+                  
+                    <div class="necessidades">
+                        <select name="necessidades" id="necessidades">
+                            <option value="1">Comunicação visual, apoio na mobilidade, apoio social ou psicológico, apoio familiar.</option>
+                            <option value="2">Transporte acessível, tecnologia assistiva, acessibilidade digital. </option>
+                            <option value="3">Suporte Social e Emocional, ambientes estruturados, apoio na comunicação</option>
+                            <option value="4">Auxílio de bengalas</option>
+                        </select>
                     </div>
                 </div>
-
                 <div class="continue-button">
                     <button type="submit" id="botaoContinuar"><a href="login.html">Continuar</a></button>
                     <dialog id="notifica"></dialog>

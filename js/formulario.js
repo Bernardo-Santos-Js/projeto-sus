@@ -3,6 +3,8 @@ const form = document.getElementById('formulario');
 const input = document.getElementById('cep');
 const notifica = document.getElementById('notifica');
 const exibeDados = document.getElementById('exibe');
+const deficiencia = document.getElementById('select');
+const necessidades = document.getElementById('necessidades');
 
 input.addEventListener('input', buscaCEP);
 
@@ -62,3 +64,6 @@ function limparDados() {
     localStorage.clear();
 }
 
+deficiencia.addEventListener('change', ()=>{
+    necessidades.style.display='block';
+})
