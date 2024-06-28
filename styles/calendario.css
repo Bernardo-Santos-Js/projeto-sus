@@ -21,13 +21,13 @@ body {
   border: none;
   border-radius: 20px;
   background: #d3d3d3;
-  color: #116985;
+  color: #1275AD;
   font-weight: 900;
 
 }
 
 .ui-datepicker-calendario {
-  background: #116985;
+  background: #1275AD;
 }
 
 .ui-datepicker {
@@ -57,7 +57,7 @@ body {
   padding: .7em .3em;
   text-align: center;
   font-weight: bold;
-  color: #116985;
+  color: #1275AD;
 }
 
 .ui-state-default,
