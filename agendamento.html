@@ -39,6 +39,9 @@
              
                 <li class="item-menu"><a href="noticias.html"> Noticias </a></li>        
                 <li class="item-menu"><a href="sobre.html"> Sobre Nós</a></li>
+             
+                <li class="item-menu"><a href="noticias.html"> Noticias </a></li>        
+                <li class="item-menu"><a href="sobre.html"> Sobre Nós</a></li>
                 <li class="item-menu"><a href="faleConosco.html"> Fale Conosco</a></li>
             </ul>
         </nav>
@@ -51,25 +54,35 @@
             <button id="abrir">
                 <h3>NOVO AGENDAMENTO</h3>
                 <i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
                 <!--Esse "button" tem a função de abrir o modal para o calendário e o campo de horário-->
             </button>
             <ul class="lista">
                 <li>20/08/2024 - 16:00 PM - CARDIOLOGISTA</li>
+                <li>20/08/2024 - 16:00 PM - CARDIOLOGISTA</li>
                 <br>
 
+                <li>16/09/2024 - 08:30 AM - CARDIOLOGISTA</li>
                 <li>16/09/2024 - 08:30 AM - CARDIOLOGISTA</li>
                 <br>
 
                 <li>27/10/2024 - 08:00 AM - CARDIOLOGISTA</li>
+                <li>27/10/2024 - 08:00 AM - CARDIOLOGISTA</li>
                 <br>
 
+                <li>05/11/2024- 08:00 AM - CARDIOLOGISTA</li>
                 <li>05/11/2024- 08:00 AM - CARDIOLOGISTA</li>
             </ul>
         </div>
     </section>
     <div class="container">
         
+        
         <dialog id="caixa">
+        
+
+            <h4>Calendário:</h4>
+            <button id="fechar"> X </button>
         
 
             <h4>Calendário:</h4>
@@ -77,6 +90,7 @@
 
             <!--início do calendário-->
             <input type="text" id="datepicker">
+           
            
 
             <div class="calendario" id="calendario"></div>
@@ -86,8 +100,13 @@
             <form>
                 <label for="horas">
                     <h4>Horários:</h4>
+                    <h4>Horários:</h4>
                 </label>
                 <input type="time">
+        
+             
+
+                <h4>Especialistas:</h4>
         
              
 
@@ -124,7 +143,38 @@
                     <option value="psiq">Psiquiatra - Dr. Michael Santos</option>
                     <option value="psiq">Psiquiatra - Dr. Iago Caio</option>
                     <option value="psiq">Psiquiatra - Dra. Maria Frnça</option>
+                    <option value="card">Cardiolosgista - Dr. Gustavo Souza</option>
+                    <option value="card">Cardiolosgista - Dra. Amanda Dias</option>
+                    <option value="card">Cardiolosgista - Dr. Wagner Lopes</option>
+                    <option value="cir">Cirurgião - Dr. Higor Ferreira</option>
+                    <option value="cir">Cirurgião - Dra. Alana Silva</option>
+                    <option value="cir">Cirurgião - Dra. Talita Karla</option>
+                    <option value="cg">Clínico Geral - Dra. Carla Dias</option>
+                    <option value="cg">Clínico Geral - Dr. Luan Dias</option>
+                    <option value="cg">Clínico Geral - Dr. Vagner Santos</option>
+                    <option value="gas">Gastroenterologista - Dr. Igor Selho</option>
+                    <option value="gas">Gastroenterologista - Dra. Regiane kleide</option>
+                    <option value="gas">Gastroenterologista - Dr. Beto Carlos</option>
+                    <option value="ger">Geriatra - Dra. Maria Lucia</option>
+                    <option value="ger">Geriatra - Dr. Marcio Vendramini</option>
+                    <option value="ger">Geriatra - Dr. Carlos Biran</option>
+                    <option value="gin">Ginecologista - Dra. Carla Rosa</option>
+                    <option value="gin">Ginecologista - Dr. Bernardo Alencar</option>
+                    <option value="gin">Ginecologista - Dra. Francy Lima</option>
+                    <option value="onc">Oncologista - Dr. Carlos Lopes</option>
+                    <option value="onc">Oncologista - Dra. Mara Silva</option>
+                    <option value="onc">Oncologista - Dr. Antony Silva</option>
+                    <option value="ort">Ortopedista - Dra. Antonella Penha</option>
+                    <option value="ort">Ortopedista - Dra. Sandra Souza</option>
+                    <option value="ort">Ortopedista - Dr. Fabio Fabian</option>
+                    <option value="ped">Pediatra - Dra. Karla Silva</option>
+                    <option value="ped">Pediatra - Dr. Francis Maycon</option>
+                    <option value="ped">Pediatra - Amanda Tincher</option>
+                    <option value="psiq">Psiquiatra - Dr. Michael Santos</option>
+                    <option value="psiq">Psiquiatra - Dr. Iago Caio</option>
+                    <option value="psiq">Psiquiatra - Dra. Maria Frnça</option>
                 </select>
+                
                 
 
             </form>
@@ -167,20 +217,7 @@
                 <li> <a href="https://meususdigital.saude.gov.br/publico/conteudo/642721d6378265001e35407f" target="_blank">Covid-19</a>
                 </li>
             </ul>
-            <div class="texto_redes">
-                <p>Siga nossas redes sociais:</p>
-
-                <div class="redes">
-                    <ul>
-                        <li class="lista_redes">
-                            <a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            
         </div>
         <div class="final"></div>
     </footer>
