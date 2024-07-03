@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat Alternates", sans-serif;
 }
+
 
 body {
     width: 100%;
@@ -14,47 +13,49 @@ body {
     justify-content: center;
     align-items: center;
     background: #f2f2f2;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.form {
+    background-color: #f9f9f9;
+    padding: 90px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-image {
-    width: 30%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #1275AD;
     padding: 1rem;
 }
 
 .form-image img {
-    width: 30rem;
-}
-
-.form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 5%;
+    width: 10rem;
 }
 
 .form-header {
-    margin-bottom: 6rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    flex: 1;
 }
 
 .login-button {
-    display: flex;
-    align-items: center;
+    flex: 0 0 auto;
+    margin-left: 10px;
 }
 
 .login-button button {
@@ -75,84 +76,34 @@ body {
     color: #fff;
 }
 
-.form-header h1::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background-color: #1275AD;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
 
 .input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem;
-
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
 }
 
 .input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-
-}
-
-.input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: 0.8rem;
-}
-
-.input-box input:hover {
-    background-color: #eeeeee75;
-}
-
-.input-box input:focus-visible {
-    outline: 1px solid #1275AD;
-}
-
-.input-box label,
-.pne-title h6 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-.input-box input::placeholder {
-    color: #000000be;
-}
-
-.pne-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
+    display: grid;
+    gap: 5px;
 }
 
 .pne-input {
-    display: flex;
-    align-items: center;
+    margin-top: 20px;
 }
 
-.pne-input input {
-    margin-right: 0.35rem;
+.pne-title {
+    margin-bottom: 5px;
 }
 
-.pne-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
+
+.continue-button {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .continue-button button {
-    width: 100%;
+    width: 20%;
     margin-top: 2.5rem;
     border: none;
     background-color: #1275AD;
@@ -167,104 +118,37 @@ body {
 
 .continue-button button a {
     text-decoration: none;
-    font-size: 0.93rem;
+    font-size: 0.80rem;
     font-weight: 500;
     color: #f2f2f2;
 }
 
+/* Notification styles */
 #notifica {
-    padding: 2px;
+    padding: 3px;
     position: relative;
-    left: center;
     color: #f2f2f2;
     background-color: #be1010ab;
     font-size: 12px;
-    text-align: center;
+    align-items: center;
     width: 100%;
-}
-
-.necessidades {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
 }
 
 #necessidades {
     display: none;
-
 }
 
-
-@media screen and (max-width: 1330px) {
-    .form-image {
-        display: none;
-    }
-
-    .container {
-        width: 50%;
-    }
-
-    .form {
-        width: 100%;
-    }
-    .login-button {
-        display: flex;
-        align-items: center;
-    }
-    
-    .login-button button {
-        border: none;
-        background-color: #1275AD;
-        padding: 0.4rem 1rem;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    
-    .login-button button:hover {
-        background-color: #3b3b3d;
-    }
-    
-    .login-button button a {
-        text-decoration: none;
-        font-weight: 500;
-        color: #fff;
-    }
-
-
-}
-
-
-@media screen and (max-width: 1064px) {
-    .container {
-        width: 100%;
-        height: auto;
-    }
-
+@media (max-width: 900px) {
     .input-group {
         flex-direction: column;
-        z-index: 5;
-        padding-right: 5rem;
-        max-height: 10rem;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        width: 50vw;
     }
+   
+}
 
-    .pne-inputs {
-        margin-top: 2rem;
+@media (min-width: 1024px) {
+    .input-group {
+        grid-template-columns: repeat(3, 1fr);
     }
-
-    .pne-group {
-        flex-direction: column;
-    }
-
-    .pne-title h6 {
-        margin: 0;
-    }
-
-    .pne-input {
-        margin-top: 0.5rem;
-    }
-
-
 }
