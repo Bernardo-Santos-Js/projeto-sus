@@ -67,3 +67,4 @@ function limparDados() {
 deficiencia.addEventListener('change', ()=>{
     necessidades.style.display='block';
 })
+
