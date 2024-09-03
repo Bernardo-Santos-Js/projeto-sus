@@ -5,6 +5,7 @@ const notifica = document.getElementById('notifica');
 const exibeDados = document.getElementById('exibe');
 const deficiencia = document.getElementById('select');
 const necessidades = document.getElementById('necessidades');
+const cpf = document.getElementById('cpf')
 
 input.addEventListener('input', buscaCEP);
 
@@ -37,34 +38,46 @@ function buscaCEP() {
     const cep = document.getElementById('cep').value;
     let url = `https://viacep.com.br/ws/${cep}/json/`;
 
-    if(cep.length == 8){
+    if (cep.length == 8) {
         fetch(url)
-        .then(response =>response.json())
-        .then (data=>{
-            if(data.erro){
-                notifica.textContent = "CEP Inválido";
-                notifica.open = true;
-                return
-            }
+            .then(response => response.json())
+            .then(data => {
+                if (data.erro) {
+                    notifica.textContent = "CEP Inválido";
+                    notifica.open = true;
+                    return
+                }
 
-            notifica.textContent = "CEP encontrado!";
-            notifica.open = true;
-            setTimeout(() => {notifica.open = false}, 1000);
-            document.getElementById('rua').value = data.logradouro
-            document.getElementById('bairro').value = data.bairro
-            document.getElementById('cidade').value = data.localidade
-            document.getElementById('uf').value = data.uf
-        })
+                notifica.textContent = "CEP encontrado!";
+                notifica.open = true;
+                setTimeout(() => { notifica.open = false }, 1000);
+                document.getElementById('rua').value = data.logradouro
+                document.getElementById('bairro').value = data.bairro
+                document.getElementById('cidade').value = data.localidade
+                document.getElementById('uf').value = data.uf
+            })
     } else {
-    notifica.textContent = "Digite 8 números válidos.",
-       notifica.open = true;
-    } }
+        notifica.textContent = "Digite 8 números válidos.",
+            notifica.open = true;
+    }
+}
 
 function limparDados() {
     localStorage.clear();
 }
 
-deficiencia.addEventListener('change', ()=>{
-    necessidades.style.display='block';
+deficiencia.addEventListener('change', () => {
+    necessidades.style.display = 'block';
 })
 
+function formatCpf(input) {
+    let value = input.value.replace(/\D/g, '');
+
+    if (value.length <= 11) {
+        value = value.replace(/(\d{3})(\d)/, '$1.$2');
+        value = value.replace(/(\d{3})(\d)/, '$1.$2');
+        value = value.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+    }
+
+    input.value = value;
+}
